@@ -1,0 +1,5 @@
+html/*
+artnetminer/*
+target/*
+*.iml
+.idea/*
