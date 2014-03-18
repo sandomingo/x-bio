@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -22,8 +24,8 @@ import java.util.Set;
  * To change this template use File | Settings | File Templates.
  */
 public class HtmlUtils {
-    private static final String stopwordsFile = "/Users/SanDomingo/Workspace/tryout/html-slicer/src/main/resources/stopwords.txt";
-    private static final String biokeywordsFile = "/Users/SanDomingo/Workspace/tryout/html-slicer/src/main/resources/biowords.txt";
+    private static final String stopwordsFile = "src/main/resources/stopwords.txt";
+    private static final String biokeywordsFile = "src/main/resources/biokw.txt";
     private static Set<String> stopwords;
     private static Set<String> biokeywords;
     static {
@@ -57,7 +59,7 @@ public class HtmlUtils {
                 biokeywords.add(str);
             }
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
 
@@ -75,7 +77,7 @@ public class HtmlUtils {
      * @return
      */
     public static String getText(String html) {
-        String text = cleanPreserveLineBreaks2(html);
+        String text = cleanPreserveLineBreaks(html);
         text = text.replaceAll("&nbsp;", "").replace("&quot;", "").replace("\t", "");
         text = text.replaceAll("[ ]*\n[ ]*", "\n");
         return text;
@@ -87,26 +89,15 @@ public class HtmlUtils {
      * @return
      */
     public static String cleanPreserveLineBreaks(String bodyHtml) {
-        String[] septags = new String[]{"br", "p", "hr", "table", "td", "tr", "h1", "h2", "h3", "h4"};
-        // get pretty printed html with preserved br and p and etc. tags
-        String prettyPrintedBodyFragment = Jsoup.clean(bodyHtml, "", Whitelist.none().addTags(septags), new Document.OutputSettings().prettyPrint(true));
-        // get plain text with preserved line breaks by disabled prettyPrint
-        return Jsoup.clean(prettyPrintedBodyFragment, "", Whitelist.none(), new Document.OutputSettings().prettyPrint(false));
-    }
-
-    /**
-     * 获取html文本内容，同时保留换行, 方法2
-     * @param bodyHtml
-     * @return
-     */
-    public static String cleanPreserveLineBreaks2(String bodyHtml) {
         Document document = Jsoup.parse(bodyHtml);
-        document.outputSettings(new Document.OutputSettings().prettyPrint(false));//makes html() preserve linebreaks and spacing
-        String[] septags = new String[]{"br", "p", "hr", "table", "td", "tr", "h1", "h2", "h3", "h4"};
-        for (String tag : septags) {
-            document.select(tag).append("\\n");
+        document.outputSettings(new Document.OutputSettings().prettyPrint(false));//makes html() preserve line breaks and spacing
+        String[] sepTags = new String[]{"br", "p", "hr", "table", "td", "tr", "h1", "h2", "h3", "h4"};
+        for (String tag : sepTags) {
+//            document.select(tag).append("\\n");
+            document.select(tag).append("\n");
         }
-        String s = document.html().replaceAll("\\\\n", "\n");
+//        String s = document.html().replaceAll("\\\\n", "\n");
+        String s = document.html();
         return Jsoup.clean(s, "", Whitelist.none(), new Document.OutputSettings().prettyPrint(false));
     }
 
@@ -128,11 +119,11 @@ public class HtmlUtils {
     }
 
     public static List<String> token(Reader reader) {
-        IKSegmenter segmenter = new IKSegmenter(reader, true);
+        IKSegmenter segment = new IKSegmenter(reader, true);
         ArrayList<String> tokens = new ArrayList<String>();
-        Lexeme lexeme = null;
+        Lexeme lexeme;
         try {
-            while ((lexeme = segmenter.next()) != null) {
+            while ((lexeme = segment.next()) != null) {
                 tokens.add(lexeme.getLexemeText());
             }
         } catch (IOException e) {

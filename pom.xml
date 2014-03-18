@@ -54,6 +54,24 @@
             <artifactId>ik-analyzer</artifactId>
             <version>3.3.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.yeezhao.commons</groupId>
+            <artifactId>yz-commons-util</artifactId>
+            <version>0.2.14</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.8</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yeezhao.commons</groupId>
+            <artifactId>yz-commons-config</artifactId>
+            <version>0.1.8</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -17,10 +17,10 @@ import java.io.IOException;
 public class BioExtractorTest {
     @Test
     public void testExtracts() throws Exception {
-//        String html = "html-slicer/html/zzs.html";
-        String html = "html-slicer/html/";
+//        String html = "html-bio/benliang.html";
+        String html = "html-bio/";
         File dir = new File(html);
-        File[] files = null;
+        File[] files;
         if (!dir.isDirectory()) {
             files = new File[1];
             files[0] = dir;
@@ -45,8 +45,7 @@ public class BioExtractorTest {
 
     @Test
     public void testSliceText() throws IOException {
-        String htmlFilename = "html-slicer/html/syu.html";
-//        String htmlFilename = "html-slicer/html/zzs.html";
+        String htmlFilename = "html-bio/syu.html";
         String html = FileHandler.readFileToString(htmlFilename);
         BioExtractor extractor = new BioExtractor();
         String text = HtmlUtils.getText(html);

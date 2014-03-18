@@ -1,9 +1,12 @@
 package me.app;
 
+import com.yeezhao.commons.util.sql.BaseDao;
+import com.yeezhao.commons.util.sql.BaseDaoFactory;
 import me.utils.FileHandler;
 import me.utils.HtmlUtils;
 
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.*;
 
 /**
@@ -20,7 +23,7 @@ import java.util.*;
  */
 public class BioManager {
     private List<String> bios;
-    public static final int TOP_N = 100;
+    public static final int TOP_N = 1000;
     private Map<String, Integer> keywordsMap; // keyword : occur number
 
     public BioManager(String biofile) {
@@ -34,11 +37,11 @@ public class BioManager {
      */
     private void selectKws(int topN) {
         Map<String, Integer> wordsMap = new TreeMap<String, Integer>();
-        List<Integer> occurence = new LinkedList<Integer>();
+        List<Integer> occurrence = new LinkedList<Integer>();
         for (String bio : bios) {
-            List<String> bioInwords = HtmlUtils.token(bio);
-            bioInwords = removeStopWords(bioInwords);
-            for (String word : bioInwords) {
+            List<String> bioInWords = HtmlUtils.token(bio);
+            bioInWords = removeStopWords(bioInWords);
+            for (String word : bioInWords) {
                 if (wordsMap.containsKey(word))
                     wordsMap.put(word, wordsMap.get(word) + 1);
                 else
@@ -46,15 +49,15 @@ public class BioManager {
             }
         }
         for (Integer num : wordsMap.values()) {
-            occurence.add(num);
+            occurrence.add(num);
         }
-        Collections.sort(occurence);
+        Collections.sort(occurrence);
         int target = 0;
         int counter = 0;
-        for (int i = occurence.size() - 1; i >= 0; i--) {
+        for (int i = occurrence.size() - 1; i >= 0; i--) {
              counter++;
-            if (counter == TOP_N) {
-                target = occurence.get(i);
+            if (counter == topN) {
+                target = occurrence.get(i);
             }
         }
         for (Map.Entry<String, Integer> entry : wordsMap.entrySet()) {
@@ -64,10 +67,10 @@ public class BioManager {
         }
     }
 
-    private List<String> removeStopWords(List<String> bioInwords) {
+    private List<String> removeStopWords(List<String> bioInWords) {
         List<String> biowords = new ArrayList<String>();
-        for (String word : bioInwords) {
-            if (HtmlUtils.isStopword(word)) {
+        for (String word : bioInWords) {
+            if (word.length() < 2 || HtmlUtils.isStopword(word)) {
                 continue;
             }
             biowords.add(word);
@@ -80,10 +83,23 @@ public class BioManager {
      * @param biofile
      */
     private void loadBios(String biofile) {
-        List<String> biolst = readBiofile2List(biofile);
+//        List<String> biolst = readBiofile2List(biofile);
+        List<String> biolst = readBioDB2List();
         this.bios = biolst;
     }
 
+    private List<String> readBioDB2List() {
+        List<String> bios = new ArrayList<String>();
+        String url = "jdbc:mysql://localhost/db_yeezhao_hound|hound|123456";
+        BaseDao dao = BaseDaoFactory.getDaoBaseInstance(url);
+        String sql = "SELECT bio FROM db_yeezhao_hound.arnet1;";
+        try {
+            bios = dao.queryColumns(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return bios;
+    }
     /**
      * 将符合格式Bio文件按条读入
      * @param biofile
@@ -113,7 +129,7 @@ public class BioManager {
                 bios.add(sb.toString());
             }
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         return bios;
     }
@@ -141,15 +157,14 @@ public class BioManager {
         try {
             FileHandler.writeListToFile(kws, outfile);
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
 
     public static void main(String[] args) {
-        String biofile = "html-slicer/artnetminer/bio.txt";
+        String biofile = "artnetminer/arnetminer.txt";
         BioManager bioManager = new BioManager(biofile);
+        bioManager.readBioDB2List();
         bioManager.saveBioKeywords("biokw.txt");
-
     }
-
 }
