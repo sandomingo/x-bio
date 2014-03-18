@@ -1,498 +1,89 @@
+修改最短bio为30
 ####abdel.html####
 Separator length: 1
 Score: 27.0
 I received my B.Sc. and M.Sc. From Electronics and Communication Engineering department, Faculty of Engineering, Cairo University in 2004 and 2007. From 2004 I was working in the speech reseach group at RDI Company, Egypt. Then I joined the  ESAT-PSI speech group at the Katholieke Universiteit Leuven, Belgium. At Septemper 2008 I started my PhD at the University of Toronto.
+
 
 ####ajay.html####
 Separator length: 1
 Score: 25.0
 I obtained my Ph.D in Computer Science from the University of Calgary, Canada. My supervisor was Zongpeng Li. Previously, I worked in the quantumlah lab at the National University of Singapore, where I also earned my Masters degree. Prior to that, I completed my undergraduate degree in Computer Engineering at the Nanyang Technological University in Singapore. You can read more about my academic research here.
 
+
 ####alexander.html####
 Separator length: 1
 Score: 32.0
 Currently I'm working as a postdoc in Computer Science at the University of California, Los Angeles in the Internet Research Lab, supervised by Dr. Lixia Zhang. My research interests include network systems and protocols, future Internet architectures such as Named Data Networking, network security, mobile systems, multimedia systems, and peer-to-peer environments.
+
 
 ####amir.html####
 Separator length: 2
 Score: 85.0
 While holding such academic and industrial positions as distinguished and chair professor, department head and Dean, Dr. Faghri authored four major books, more than 310 archival technical publications, including 205 journal papers, and 11 U.S. patents as the principal inventor. His newest book, Advances in Heat and Mass Trasnfer, was published in 2010. He has served as a consultant to several major research centers and corporations, including Los Alamos and Oak Ridge national laboratories, Intel Corporation and Exxon Mobil. He has also served on the board of directors of both public and pivate companies. As a principal investigator conducting research in heat and mass transfer, he has received numerous external research contracts from the National Science Foundation, National Aeronautics &amp; Space Administration, Department of Defense, Department of Energy, and various industrial companies. Dr. Faghri's technical productivity is further complemented by his service on the editorial boards of eight scientific journals. Dr. Faghri has received many honors and awards, including the prestigious 1998 American Institute of Aeronautics &amp; Astronautics (AIAA) Thermophysics Award, the 1998 American Society of Mechanical Engineering (ASME) Heat Transfer Memorial Award, the 2005 ASME James Harry Potter Gold Medal, and 2010 ASME/AICHE Max Jakob Memorial Aawrd.
 
+
 ####andrew.html####
 Separator length: 1
 Score: 55.0
 BiographyAndrew J. Younge a Ph.D Candidate in Computer Science and a Persistent Systems Fellow at Indiana University.  Andrew’s research interests include Cloud Computing, Distributed Systems, and Green IT. He is an active member of the FutureGrid project, an NSF-funded experimental Cloud testbed for scientific researchers. He received his Bachelors and Masters of Science from the Computer Science Department at Rochester Institute of Technology (RIT) in 2008 and 2010, respectively. During this time, Andrew worked as a Graduate Researcher on the Cyberaide Projectin the Service Oriented Cyberinfrastructure Laboratory and as a Research Assistant on an experimental Social Psychology research project. Andrew also completed an internship at the University of Maryland, College Park where he contributed to the Lattice Project, a regional Grid computing system..
+
 
 ####anitha.html####
 Separator length: 1
 Score: 16.0
 I am a researcher at Microsoft Research Search Labs.Previously, Iwas at MSR Cambridge in the Machine learning and perception group. I obtained my PhD at University of Toronto where Iwas part ofProbabilistic and Statistical Inference group.
 
+
 ####anthony.html####
 Separator length: 1
-Score: 86.0
-Adzic, V., Cohen, R.A., Vetro, A., Temporal Perceptual Coding Using a Visual Acuity Model, IS&amp;T / SPIE Electronic Imaging Science and Technology, February 2014.BibTeX  Download PDFRead TR2014-006Sullivan, G.J., Boyce, J.M., Chen, Y., Ohm, J-R., Segall, C.A.: Vetro, A., Standardized Extensions of High Efficiency Video Coding (HEVC), IEEE Journal of Selected Topics in Signal Processing, DOI: 10.1109/JSTSP.2013.2283657, ISSN: 1932-4553, pp. 1001-1016, December 2013.BibTeX  Download PDFRead TR2013-105Fang, L., Cheung, N-M, Tian, D., Vetro, A., Sun, H., Au, O.C., An Analytical Model for Synthesis Distortion Estimation in 3D Video, IEEE Transactions on Image Processing, DOI: 10.1109/TIP.2013.2287608, ISSN: 1057-7149, Vol. 23, No. 1, pp. 185-189, January 2014.BibTeX  Download PDFRead TR2013-100Tian, D., Zou, F., Lee, C., Vetro, A., Sun, H., Analysis of View Synthesis Prediction Architecturs in Modern Coding Standards, SPIE Applicataions of Digital Image Processing, DOI: 10.1117/12.2025148, Vol. 8856, September 2013.BibTeX  Download PDFRead TR2013-076@article{Tian2013sep1,author = {Tian, D. and Zou, F. and Lee, C. and Vetro, A. and Sun, H.},title = {Analysis of View Synthesis Prediction Architecturs in Modern Coding Standards},journal = {SPIE Applicataions of Digital Image Processing},year = 2013,volume = 8856,month = sep,doi = {10.1117/12.2025148},url = {http://www.merl.com/publications/TR2013-076}}Tian, D., Zou, F., Vetro, A., Backward View Synthesis Prediction for 3D-HEVC, IEEE International Conference on Image Processing (ICIP), September 2013.BibTeX  Download PDFRead TR2013-086@inproceedings{Tian2013sep2,author = {Tian, D. and Zou, F. and Vetro, A.},title = {Backward View Synthesis Prediction for 3D-HEVC},booktitle = {IEEE International Conference on Image Processing (ICIP)},year = 2013,month = sep,url = {http://www.merl.com/publications/TR2013-086}}          See All Publications for Anthony                                       MERL Issued Patents
+Score: 20.0
+Vetro joined MERL in 1996 and has been conducting research in the area of multimedia signal processing. He has contributed to the transfer and development of several technologies to digital television, surveillance, automotive, and satellite imaging systems. He has been an active participant in video coding standards and currently serves as Head of the US Delegation to MPEG.
+
 
 ####anthony.maeder.html####
 Separator length: 2
-Score: 18.0
-Supervision
-Professor Maeder is available to be a principal supervisor for doctoral projects
-Current Supervision
-Title:A Framework for Understanding and Predicting the Take Up and Use of Social Networking Tools in a Collaborative Environment
+Score: 67.0
+Anthony Maeder is Professor in Health Informatics at the University of Western Sydney, and was previously Research Director of the CSIRO eHealth Research Centre in Brisbane from 2004. Prior to that, he followed an academic career as Head of School in Engineering at University of Ballarat and subsequently at Queensland University of Technology Electrical and Electronic Systems Engineering. His earlier appointments were at Monash University in the Department of Computer Science, where he undertook his PhD in Software Engineering. He is a Fellow of the Institution of Engineers Australia and was the founding President of the Australian Pattern Recognition Society. He is currently chair of the Standards Australia IT-14-12 Telehealth Subcommittee and a member of the IT-14 Health Informatics Committee Australian delegation to ISO/CEN meetings. He was a Board Member of the Health Informatics Society of Australia and their representative on IMIA WG1 (Education) until 2011. In 2013 he was appointed Distinguished Visiting Professor in the Departments of Computer Science and Information Systems at Rhodes University in South Africa.
+This information has been contributed by Professor Maeder.
+
 
 ####atul.html####
 Separator length: 3
-Score: 74.0
-Atul       Kanaujia, Ph. D.
-Atul Kanaujia received his B.Tech. in Computer Science and       Engineering from Indian Institute of Technology, Bombay in 2000 and MSc. in Computer Science from Rutgers University in 2003. He worked as a       Associate Member of Technical Staff at Mentor Graphics,R &amp; D (India) during 2003-2004.       He received PhD from Rutgers, The State University of New Jerseyin 2010. His thesis was supervised by Dimitris Metaxas and co-supervisedby Cristian Sminchisescu. Dr. Kanaujia is currently working as a Senior Research Scientist at       ObjectVideo, Inc. His areas of research include 3D human pose       reconstruction and tracking, non-linear manifold learning,       semi-supervised learning, facial features recognition and tracking,      human activity recognition and scene understanding.
+Score: 54.0
+Automatic extraction and representation of visual concepts and           semantic information in scene is a desired capability in any security           and surveillance operations. In this project we target the problem of           visual event recognition in network information environment, where           faulty sensors, lack of effective visual processing tools and           incomplete domain knowledge frequently cause uncertainty in the data           set and consequently, in the visual primitives extracted from it. We           adopt Markov Logic Network (MLN), that combines probabilistic           graphical models and first order logic, to address the task of           reasoning under uncertainty. MLN is a knowledge representation           language that combines domain knowledge, visual concepts and           experience to infer simple and complex real-world events. MLN           generalizes over the existing state-of-the-art probabilistic models,           including hidden Markov models, Bayesian networks, and stochastic           grammars. Moreover, the framework can be made scalable to support           variety of entities, activities and interactions that are typically           observed in the real world.
 
-Current Research
-3D Human Shape Modeling from Video Imagery
-
-We propose a robust framework that combines discriminative and           generative approaches for inferring 3D pose and anthropometric           characteristics of a person. In order to deal with loss of depth           information and resolve ambiguities, we use a combination of           techniques based on learned dynamical priors, biomechanical           characterization of human pose and multi-hypothesis tracking. Each of           the techniques aims to constrain the pose search to find the most           optimal pose and shape that best describes the person in the image.           The system is fully automatic and has modular architecture to support           extensibility and facilitate transition to operational deployment
 
 ####benliang.html####
 Separator length: 2
-Score: 34.0
+Score: 20.0
 Welcome! I am a member of the       Communications Group. I joined the       Department of Electrical and Computer Engineering at the       University of Toronto in 2002. My research interests are in the areas    of mobile communications and networked systems.  I direct the Wireless Computing Lab.
-Office: Room 4122, Bahen Centre (40              St. George Street )
-Tel:: 1-416-946-8614
-Fax: 1-416-978-4425
-Email:
-URL: http://www.comm.utoronto.ca/~liang
-Surface Mail: Department of Electrical and Computer Engineering
-University of            Toronto
-10 King's            College Road
-Toronto,            Ontario M5S 3G4, Canada
-Administrative Assistant:
-Ms. Mary Stathopoulos; Tel: 1-416-978-7727; Room: BA4145
+
 
 ####binbin.html####
 Separator length: 2
-Score: 45.0
-ParallelVector Field Embedding
-Binbin Lin,Xiaofei He, Chiyuan Zhang and Ming Ji
+Score: 34.0
 Journal of MachineLearning Reseach (JMLR) 14: 2945-2977, 2013.
-[pdf] [bibtex] Multi-taskVector Field Learning
-Binbin Lin,Sen Yang, Chiyuan Zhang, Jiepinge Ye and Xiaofei He
 Advances in in Neural Information Processing Systems (NIPS), 2012.
-[pdf][bibtex] ParallelField Ranking
-Ming Ji, Binbin Lin,Xiaofei He, Deng Cai and Jiawei Han
 Proceedings of the 18th ACM SIGKDDInternational Conference on Knowledge Discovery and Data Mining (KDD)2012: 723-731.                      KDD'12 BestPaper Award Candidate.
-[pdf][bibtex] A SimpleAlgorithm for Semi-supervised Learning withImproved Generalization Error Bound
-Ming Ji, Tianbao Yang, BinbinLin, RongJin and Jiawei Han
 Proceedings of the 29th International Conference on Machine Learning(ICML), 2012.
-[pdf][bibtex]Semi-supervisedLearning via Parallel Field Regularization
-Binbin Lin, Chiyuan Zhang andXiaofei He
 Advances in Neural Information Processing Systems (NIPS), 2011: 433-441.
-[pdf][bibtex] [code]ApproximatelyHarmonic Projection: Theoretical Analysis andAn Algorithm
-Binbin Lin,Xiaofei He, Yuan Zhou, LigangLiu and Ke Lu
 Pattern Recognition 43(10): 3307-3313 (2010).
-[pdf][bibtex] FastApproach for Computing Roots of Polynomials Using CubicClipping
-Ligang Liu,Lei Zhang, Binbin Lin and GuojinWang
 Computer Aided Geometric Design 26(5): 547-559 (2009).
-[pdf][bibtex]
+
 
 ####bozheng.html####
 Separator length: 2
-Score: 71.0
-Short bio
+Score: 67.0
 Dr. Bo Zheng is a project research associate working with Ikeuchi  Lab, Institute of Industrial Science,   The University of Tokyo. He received his B.S. degree from the department of computer science, Beijing University of Technology, 2001; he received his M.E. degree under the supervision of Prof. Shao-Liang Zhang from department of Applied Physics, Engineering School, The University of Tokyo, 2005; He got his Ph.D. degree, under the supervision of Prof. Katsushi Ikeuchi, from department of Information Science and Technology, the University of Tokyo, 2008. He worked with Fujitsu CO., Ltd. as a system engineer in 2005. He was a visiting scholar in Prof. Song-chun Zhu's group, UCLA. His research interests include computer vision and graphics, medical image understanding, object recognition, algebraic representation, 3D scene parsing and solving large-scale and sparse linear systems.
-Publications
 See publication list in other page.
-Current research projects
+
 
 ####brain.html####
 Separator length: 2
-Score: 20.0
-Research Group Links:    library -    meetings -    overview -    sponsors -    studentsSeminars:    Perceptual Systems -    Wireless Networking and CommunicationsGraduate Study:    communications -    digital signal    processing -    suggestions IEEE:     Signal Processing    Society Design/Implementation Technical Committee
-Mail comments about this page tobevans@ece.utexas.edu.
-
-####caiming.html####
-Separator length: 5
-Score: 36.0
-Short Bio
-Caiming Xiong is a Ph.D. candidate at the department ofComputer Science and Engineering, University at Buffalo, SUNY.Hereceived his B.S. and M.S. of Computer Science degree from Huazhong University of Science and Technology(HUST) in the year 2005 and 2007 in China.Xiong has been an active member of Dr. Jason J.Corso’s Vision and Perceptual Machines Lab (VPML) at SUNY-Buffalo since 09/2008.
-
-
-
-Research Interests
-Metric Learning, Active Clustering, Large Scale Retrieval, Streaming Temporal Segmentation, Video Action Analysis, Human Computer Interaction.
-
-####chaochen.html####
-Separator length: 3
-Score: 39.0
-I am currently working with  Prof. Dimitris Metaxas  at     Computational Biomedicine Imaging and Modeling Center ,      Rutgers University . From 2009 to 2012, I worked with     Prof. Herbert Edelsbrunner at Institute of Science and Technology Austria.    I obtained my Ph.D. degree from Rensselaer Polytechnic Institute in 2009     (advised by Prof. Daniel Freedman).
-My research focuses on data and image analysis, with an emphasis on the usage of topological and geometric methods. In particular, I am interested in using theories in quantitative computational topology, e.g. persistent homology, to extract and analyze structures of data of modern age.
-
-####chenfeng.html####
-Separator length: 1
-Score: 27.0
-My research philosophy is to bridge the gap between theoretical advances and system implementations.In particular, I am interested in adapting new ideas and tools frominformation theory, coding theory, and optimization to designbetter networking systems.Currently, I am focusing on applying network coding to improve wireless networks, as well as adapting recent optimization methods to improve cloud computing.
-
-####chenglung.html####
-Separator length: 1
-Score: 72.0
-Alliance airlines terminal colocation (current part-time MSc project with Sydney Airport)Improving aircraft maintenance scheduling efficiency (current part-time MSc project with Qantas)Recoverable robustness in airline schedule planning (current PhD project with School of Mathematics, UNSW)Tourist travel choice modelling considering transport influences (current PhD project)The impact of aging population on air transport (current PhD project)Tourist dispersal in regional Australia (funded by STCRC, 2009)Air passenger purchase behaviour modelling at airports (current PhD project)Integrated aircraft routing and crew pairing for robust airline scheduling (current PhD project w/ School of Mathematics, UNSW)Improving un-constrained demand forecasting in airline yield management systems (current part-time PhD project)The choice behaviour modelling of shippers and the formation of cargo forwarder alliances (current PhD project)Modelling Delay Propagation in airline networks (funded by ARC DP 05-07)The Impact of Aviation and other Modes of Transport on Regional Tourism (past PhD project- finished in 2010)The Optimisation of Hubbing Flights Scheduling with Stochastic Delays (funded by Science Faculty)Monitoring and Improving Aircraft Turnaround Operations at Airports (funded by Science Faculty (Collabourated with Qantas)Tourists flows and dispersion: Developing a model for analysing and visualising existing and future scenarios of tourist movements (funded by CRC Tourism)Professional Activities
-
-####chris.html####
-Separator length: 1
-Score: 61.0
-Ann Irvine, Chris Quirk, and  Hal Daum&eacute; III, Monolingual Marginal Matching for Translation Model Adaptation, in EMNLP 2013,  ,  October 2013Michael Auli, Michel Galley, Chris Quirk, and  Geoffrey Zweig, Joint Language and Translation Modeling with Recurrent Neural Networks, in Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, Association for Computational Linguistics, Seattle, Washington,  October 2013Michel Galley, Chris Quirk, Colin Cherry, and  Kristina Toutanova, Regularized Minimum Error Rate Training, in Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing, Association for Computational Linguistics, Seattle, Washington,  October 2013William Lewis and  Chris Quirk, Controlled Ascent:  Imbuing Statistical MT with Linguistic Knowledge, in Proceedings of the Second Workshop on Hybrid Approaches to Translation, ACL 2013, ACL, 8 August 2013Chris Quirk, Exact Maximum Inference for the Fertility Hidden Markov Model, in ACL,  August 2013Chris Quirk and  Pallavi Choudhury, Semantic Neighborhoods as Hypergraphs, in ACL,  August 2013Hui Zhang, Kristina Toutanova, Chris Quirk, and  Jianfeng Gao, Beyond Left-to-Right: Multiple Decomposition Structures for SMT, in NAACL, 10 June 2013Xiaohu Liu, Ruhi Sarikaya, Chris Brockett, Chris Quirk, and  William Dolan, Paraphrase features to improve natural language understanding, in Interspeech 2013,  ,  2013Svitlana Volkova, Pallavi Choudhury, Chris Quirk, Bill Dolan, and  Luke Zettlemoyer, Lightly Supervised Learning of Procedural Dialog Systems, Association for Computational Linguistics,  20132012
-
-####claudia.html####
-Separator length: 2
-Score: 134.0
-Editorial Board Member of: Semantic Web Journal (SWJ) Semantic Web Journal - Special Issue on Semantic Social Media Dynamics  Semantic Web Journal - Special Issue on Cognitive Science and the Semantic Web  International Journal On Advances in Intelligent Systems (IARIA Journals) International Journal of Intelligent Systems and Applications (IJISA) Transactions in GIS   - Special Issue on Semantic Similarity Measurement and Geospatial Applications.
-Program Chair of the 10th European Semantic Web Conference (ESWC'14)
-Vice-Chair of the 8th International Semantic Web Conference (ISWC'09)
-Workshop and Tutorials Chair at the 11th International Semantic Web Conference ( ISWC'12) the 18th International Conference on Knowledge Engineering and Knowledge Management (EKAW'12) the 6th IEEE International Conference on Semantic Computing (ICSC'12)
-Track Chair for   the Machine Learning track at the 10th Extended Semantic Web Conference (ESWC'13)the Machine Learning track at the 9th Extended Semantic Web Conference (ESWC'12)
-Organizing Commettee Member of  the International Workshop on Data Mining on Linked Data at ECML/PKDD (DMoLD'13)the International Workshop on Linked Data for Information Extraction at ISWC (LD4IE'13) the Int. Uncertainty Reasoning Workshop at ISCW (URSW'13, URSW'11, URSW'10, URSW'09, URSW'08, URSW'07)the Int. Workshop on Inductive Reasoning and Machine Learning on the Semantic Web at ESCW (IRMLeS'11, IRMLeS'10, IRMLeS'09)
-AI*IA Scientific Board Member for the assignment of the award for the best 2013 Italian Master Thesis in Artificial Intelligence (AI*IA awards 2013)
-Senior Program Committee Member of the International Semantic Web Conference (ISWC'14) - Replication, Benchmark and Data Track
-
-####craig.html####
-Separator length: 3
-Score: 49.0
-Links:   Google+,Google Scholar profile,  LinkedIn profile,  Twitter,  Microsoft Academic Search profile.
-
-I am a Professor in theDepartment of Computer Science,University of Toronto and a member ofArtificial Intelligence Group. My current research effortsfocus on various aspects of decision making under uncertainty:preference elicitation, mechanism design, game theory and multiagent decision processes, economic models, social choice, computational advertising, Markov decision processes, reinforcement learning and probabilistic inference.  In a past research life, I spent quite a bit of time working in the areas of knowledge representation, belief revision, default reasoning, and philosophical logic.See a brief academic biofor more details.
-I am also a Co-founder (with Tyler Lu)of an exciting new start-up, Granata Decision Systems.
-For more information about my research and teaching, check out the linksbelow.
-
-####david.html####
-Separator length: 1
-Score: 29.0
-I am a post-doctoral researcher with Daphne Koller at Stanford University. I did my PhD with Zoubin Ghahramani in the Machine Learning group of the Cambridge University Engineering Department. I was the Roger Needham Scholar at Wolfson College, funded by Microsoft Research. My undergraduate degree comprised two years of Physics before switching to Engineering to complete an MEng with Zoubin. I took the MSc Bioinformatics and Systems Biology at Imperial College in 2007/8.
-
-####dejing.html####
-Separator length: 2
-Score: 46.0
-I am an Associate Professor in the  Computer and Information Science Department at the University of Oregon and lead the Advanced Integration and Mining Lab (AIM Lab).  I received my Ph.D. degree in Artificial Intelligence in 2004 (advisor: Drew McDermott) at Yale University. I received my B.E. degree in Electronic Engineering in 1996 at Tsinghua University.
-My research  interests include:
-Ontology Data Mining Data Integration Biomedical and Health Informatics Semantic Web
-I focus on three critical challenges in processing data and knowledge: heterogeneity, reusability, and scalability.
-
-####deke.html####
-Separator length: 3
-Score: 109.0
-Professional Articles:
-
-Reviewer for                     IEEE/ACM Transactions on Networking (TON)        IEEE Transactions on Database Systems (TODS)                           IEEE           Transactions on Knowledge and Data Engineering (TKDE)                               IEEE Transactions on Computers (TC)                 IEEE         Transactions on Parallel and Distributed Systems (TPDS)         IEEE          Transactions on Mobile Computing (TMC)         IEEE Transactions on Vehicular Technology(TVT)         IEEE Journal on Selected Areas in Communications (JSAC)                        Elsevier Journal of Computer         Communications         (ComCom)        Elsevier Journal of Parallel and Distributed Computing         (JPDC)        Elsevier Journal of Future Generation Computer Systems(FGCS)        KSII Transactions on Internet and Information Systems                Ad Hoc &amp; Sensor Wireless Networks                Networks                        IEEE Communications Letters                Journal of Computer Science and Technology (JCST)        Science China Information Sciences                                International Journal of Distributed Sensor Networks                 Mathematical and Computer Modelling of Dynamical Systems                MOBICOM 2010, 2012                                                                INFOCOM 2008, 2009, 2010, 2011                                                                   MobiHoc 2008         WWW 2010                                                             ICDCS  2007, 2008                                 IEEE ICNP 2007                                 RTSS 2009                                                                                          IEEE ICPP 2007, 2008, 2012                                                                                    ICPADS 2007, 2008, 2009, 2012                                                                        GlobeCom 2007                             MSN 2007                                    PC Member of
-IEEE LANMAN'14        IEEE MASS 2013                              IEEE CSC 2013                              IEEE NAS 2013                              ICPADS 2012                            Mobiquitous 2012, 2013 ICCCN 2011                                NCIS 2011
-
-Research Group
-
-####dieter.html####
-Separator length: 1
-Score: 31.0
-Dieter's research interests lie in artificial intelligence, robotics and probabilistic state estimation. He is the director of the UW Robotics and State Estimation Lab RSE-Lab.  From 2009 to 2011, Dieter was director of the Intel Research Lab Seattle, and he currently serves as the academic PI of the Intel Science and Technology Center for Pervasive Computing.
-
-####dwl.html####
-Separator length: 1
-Score: 103.0
-Professor David Wai-lok Cheung is a Professor of the Department of Computer Science. He is also Director of the Center for E-commerce Infrastructure Development (CECID). Professor Cheung graduated with a BSc in Mathematics at Chinese University of Hong Kong, and received MSc and PhD in Computer Science from Simon Fraser University in Canada in 1985 and 1988, respectively. Since joining HKU in 1994, he has been an active researcher in database, data mining and e-commerce technologies. His recent research covers secure computation of encrypted database; data interoperability theory; query on community network.He has published in many leading venues including SIGMOD, VLDB, ICDE and KDD conferences. He was the recipient of the HKU Outstanding Researcher Award in 1999, the Distinguished Contribution Award on the 2009 Pacific-AsiaKnowledge Discovery and Data Mining Conference. Other contributions to the academia include providing leadership in various prominent conferences - he was the program chairman of the 2001 and 2005 Pacific-Asia Knowledge Discovery and Data Mining Conferences (PAKDD); the conference chairman of the 2007 PAKDD Conference; the Conference Co-Chair of the 2009 ACM Conference on Information and Knowledge Management (CIKM); the program vice-chair of ICDM 2006; and the program chair of HKICC 2003. He has also served as program committee members for numerous other international conferences. Some of Professor Cheung's representative publications can be found on DBLP, Google Scholar, and CiteSeer. (A comprehensive listing of his publications is posted at the end of this page.)
-
-####emilio.html####
-Separator length: 1
-Score: 94.0
-Emilio Frazzoli is a Professor of Aeronautics and Astronautics with the Laboratory for Information and Decision Systems, and the Operations Research Center at the Massachusetts Institute of Technology. He received a Laurea degree in Aerospace Engineering from the University of Rome, “Sapienza” , Italy, in 1994, and a Ph. D. degree in Navigation and Control Systems from the Department of Aeronautics and Astronautics of the Massachusetts Institute of Technology, in 2001. Between 1994 and 1997 he worked as an officer in the Italian Navy, and as a spacecraft dynamics specialist for the European Space Agency Operations Centre (ESOC) in Darmstadt, Germany, and Telespazio, in Rome, Italy. From 2001 to 2004 he was an Assistant Professor of Aerospace Engineering at the University of Illinois at Urbana-Champaign. From 2004 to 2006 he was an Assistant Professor of Mechanical and Aerospace Engineering at the University of California, Los Angeles. He was the recipient of a NSF CAREER award in 2002. He is an Associate Fellow of the American Institute of Aeronautics and Astronautics and a Senior Member of the Institute for Electrical and Electronics Engineers.  He is currently serving as an Associate Editor for the IEEE Transactions on Automatic Control, for the AIAA Journal of Guidance, Control, and Dynamics, and for the Journal of Optimization Theory and Applications. He is currently the Lead Principal Investigator of the Future Urban Mobility IRG of the Singapore-MIT Alliance for Research and Technology (SMART).
-
-####fabrizio.html####
-Separator length: 2
-Score: 30.0
-Since the 1st of November 1999 I am a Ricercatore (Assistant Professor) at the Dipartimento   di Ingegneria of the University of Ferrara.   I received my PhD in Electronic and Computer Engineering from the University   of Bologna in February 1999. I received my laurea in Computer Engineering   from the University of Bologna in July 1995. I am currently a member of the Computer   Science Group at the Dipartimento di Ingegneria.I am a member of  GULP - Gruppo Ricercatori e Utenti Logic Programming, of the Association for  Logic Programming  and of AI*IA   - Associazione Italiana per l'Intelligenza Artificiale
-Hobby: trekking.
-
-####farzin.html####
-Separator length: 1
-Score: 45.0
-School of Engineering and Digital Arts                                                                                                                                                                                                                                University of Kent - The UK's European University                                                                                                                    Contact                            Maps                            Departments                                                                                                                                                                                        Quick links                                                                                                                                                                                                                                                                                                                                                                                                                                                    Accommodation                                                                Campus online                                                                Careers advice                                                                Congregations                                                                Events Calendar                                                                Finance office                                                                Getting started                                                                IT services                                                                Job opportunities                                                                Kent blogs                                                                Kent union                                                                KRIMSON                                                                Library services                                                                Medical Centre                                                                Medway union                                                                Module catalogue                                                                Moodle                                                                MyFolio                                                                Online store                                                                Planning for 50                                                                Print credits                                                                Social media at Kent                                                                Sports, arts and music                                                                Staff/PGR email                                                                Student Ambassador Scheme                                                                Student data system                                                                Student email                                                                Student Guide                                                                Term dates                                                                University Directory                                                                Video and audio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Information for me                                                                                                                                                                                                                                                                                                                                                                                                                                                    Applicants                                                                Arriving students                                                                Current students                                                                International students                                                                Parents and family                                                                Alumni (former students)                                                                Staff                                                                Press and media                                                                Teachers and advisors                                                                Partner college students                                                                Partner college staff                                                                FE colleges                                                                Secondary schools
-
-####flach.html####
-Separator length: 1
-Score: 70.0
-[        Video and slides   ]ROC Analysis for Ranking and Probability Estimation (tutorial at UAI'07) [PDF]Reinventing Machine Learning with ROC Analysis (invited talk at SBIA/IBERAMIA'06)ROC Analysis for Model Improvement: Analysis and Open Questions (talk at UK KDD'05)The many faces of ROC analysis in machine learning (tutorial at ICML'04)Novelty and discovery: a machine learning approach (talk at Origins of novelty workshop)Probabilistic models for structured data (talk at 4th De Morgan workshop)Data Mining and Relational Knowledge Discovery (tutorial at ECAI'02, with Nada Lavrac)An Introduction to ILP and Propositionalisation (tutorial at Relational Data Mining Summerschool, with Nada Lavrac)Multi-Relational Data Mining: a perspective (invited talk at EPIA'01)Knowledge representation for Machine Learning (tutorial at ICML'01)The logic of learning (invited talk at LICS-2001 Workshop on Logic and Learning)A tutorial on rule induction (invited tutorial at Spring School on Intelligent Data Analysis)The use of functional and logic languages in machine learning (invited talk at WFLP2000)Knowledge Representation for Inductive Logic Programming (invited tutorial at CL2000)Knowledge Representation for Inductive Concept Learning (invited talk at ECSQARU'99)Inductive Logic Databases (invited talk at DOOD'97)Publications
-
-####fran.html####
-Separator length: 2
-Score: 74.0
-Current Teaching (AY 2009/10)
-ECE 1502F, Information TheoryECE 417S, Digital CommunicationCourses Taught Previously
-ECE 1501, Error-Control CodesECE 316, Communication SystemsLinks
-Preprints and Publications (by year)Preprints and Publications (by topic)TalksDownloadsFRKgroup AlumniGroup PhotosGiving a Talk: HTML,PDFSurname Pronunciation GuideKP36, the Kschischang-Pasupathy latticeSee the Magic HexagonHome pages: Comm. Group,ECE,U.ofT.Copyright &copy; 2010 by Frank R. Kschischang.
-Last update: January 2, 2010Brief Biography
-B.A.Sc. (hon.) in Electrical Engineering, University of British Columbia, 1985. M.A.Sc. in Electrical Engineering, University of Toronto, 1988. Ph.D. in Electrical Engineering, University of Toronto, 1991. Assistant Professor, University of Toronto, 1991-1996. Associate Professor, University of Toronto, 1996-2000. Professor, University of Toronto, 2000-. More Biographical Data,Professional Service.Research Interests
-Professor Kschischang's research interests arein the area of digital communications, particularlyin the area of communication algorithms as used,for example, to decode information transmitted overa noisy channel with an error-correcting code.Applications for this work occur in modem designfor wireless communication, free-space optical communication,fibre-optic communication, powerline communication,digital subscriber lines, etc., as well as in informationdistribution over the Internet.Keywords: factor graphs, graphical models,the sum-product algorithm, low-density parity-check codes,turbo codes, network coding, trellis-coded modulation,trellis structure of codes, constellation shaping, multidimensional sphere packing.Awards
-Nov.1992:
-EE Class of 9T3 Professor of the Year
-
-####gajendra.html####
-Separator length: 2
-Score: 41.0
-Scientific Contribution: Raghava is a strong suporter of open source software and open access, all resouces develoed at his group are free for scientific use. His group developed more than 180 web servers and 20 databases in the field of computer-aided drug/vaccine design (probably highest number of services developed/maintained from a single group in the world). These services are heavily used by scientific community, nearly 100,000 hits per day. Group published more than 150 research papers in reputed journals with avargae impact factor more than 3. Most of papers are highly cited, total citations more than 5000 with h-index 41 and g-index 91 as per google scholar. In addition group contributed/maintained number of web sites that include i) CRDD, ii) OSCADD, iii) OSDDlinux, iv) CSIR Informatics Portal, v) GENESIS, vi) GPSR Packages, vii) OSDDchem, viii) Sysborg2, ix) OSDD .
-
-####gautam.html####
-Separator length: 4
-Score: 12.0
-Professor    and Head of
-Database Exploration Laboratory (DBXLAB)
-
-Computer    Science and Engineering Department
-University    of Texas at Arlington
-500    UTA Blvd., 626, Engineering Research Building
-Arlington,    TX 76019
-
-&lt; uta dot edu, gdas &gt;
-(817)    272-7595
-
-####george.e.html####
-Separator length: 1
-Score: 16.0
-I have implemented a version of the Hessian Free(truncated Newton) optimization approach that is based on JamesMartens's exposition of it in his paper that explored using HF for deeplearning (please see James Martens'sresearch page). Myparticular implementation was made possible with IlyaSutskever's guidance and some of the implementation choices havebeen made to make it easier to compare my code to various optimizershe has written. Despite Ilya's generous assistance, any bugs ordefects that might exist in the code I post here are my own. Pleasesee Ilya's publicationpage for code he has released for HF and recurrent neural nets. Itisn't too difficult to wrap his recurrent neural net model code in away that let's my optimizer code optimize it. Without furtherado, here is the code. The file is largebecause it also contains a copy of the curves dataset. The coderequires gnumpy to run and I recommendusing cudamat, writtenby Volodymyr Mnih, andrunning the code on a GPU and not in the slower simulation mode ofgnumpy.
-
-####george.html####
-Separator length: 1
-Score: 16.0
-I am the principal architect of MOLGENIS/compute, the workflow management framework that enables data and computational management in a distributed execution environment. The system provides functionality to run analysis      in heterogeneous computational clusters and grids, trace data, show how final results were created and how.
-
-####haifeng.html####
-Separator length: 1
-Score: 33.0
-Haifeng Liu's Homepage - staff Homepage, ZJU                                Home         Login        Help            Haifeng Liu's Homepage                                                                                    Chinese                                        English Home                                    ProfileWelcome. Haifeng Liu received her Ph.D. degree in Department of Computer Science, University of Toronto under the supervision of Professor H-Arno Jacobsen in 2009. She got her B.S. degree in Computer Science and Technology from the Special Class for the Gifted Young, University of Science and Technology of China. Now She works an associatet professor in the College of Computer Science, ZheJiang University.
-
-####hojatollalh.html####
-Separator length: 1
-Score: 25.0
-I received the Bachelor’s degree in Electrical Engineering from Isfahan University of Technology in Iran in 2006. Then, in 2009, I graduated from Amirkabir University of Technology (Tehran Polytechnic), Iran with Masters in Electrical Engineering where my thesis was focused on Robust Speech Recognition Using Sub-band Processing supervised by Dr. Seyed Mohammad Ahadi.
-
-####hongning.html####
-Separator length: 2
-Score: 22.0
-Short BioAward and HonorInvited TalksAcademic ActivitiesResearchProjectsPublications                                            Welcome to Hongning Wang's Homepage!
-I am a graduate student in the Text Information Management Group (TIMan) in Department of Computer Science of University of Illinois at Urbana-Champaign. My advisor is Professor Chengxiang Zhai.
-Find my latest CV here and research statement here (updated Feburary, 2014).
-Research Interest:
-Data Mining, Information Retrieval, Machine Learning and their applications.
-
-####hpk.html####
-Separator length: 1
-Score: 58.0
-Hans-Peter Kriegel has been a Professor of Informatics at Ludwig-Maximilians-Universitaet Muenchen, Germany, since 1991. He has published over a wide range of data mining topics including clustering, outlier detection and high-dimensional data analysis. From the beginning of his research he was and still is working on spatial data management and similarity search, now in particular on searching and mining uncertain data, including uncertain spatio-temporal data. In 2009 the Association for Computing Machinery (ACM) elected Professor Kriegel an ACM Fellow for his contributions to knowledge discovery and data mining, similarity search, spatial data management, and access-methods for high-dimensional data. So far, his more than 450 publications have been cited more than 30,000 times according to Google Scholar. Microsoft Academic Search currently ranks him Number 5 for field rating in the field of data mining.
-
-####james.html####
-Separator length: 1
-Score: 60.0
-Alvarez-Ponce, D., Lopez, P., Bapteste, E. and McInerney, J.O. (2013). Gene similarity networks provide new tools for understanding eukaryote origins and evolution.Proceedings of the National Academy of Sciences USA doi: 10.1073/pnas.1211371110.[pdf]Nelson-Sathi, S., Dagan, T., Landan, G., Janssen, A., Steel, M., McInerney, J. O., Deppenmeier, U., and Martin, W.F. (2012). Acquisition of 1,000 eubacterial genes physiologically transformed a methanogen at the origin of Haloarchaea. Proceedings of the National Academy of Sciences USA 109 (50) 20537-20542, doi: 10.1073/pnas.1209119109.Bapteste, E., Bouchard F., Baquero F., McInerney J.O., Lopez P. and Burian R.M. (2012). Evolutionary analyses of non-genealogical bonds produced by introgressive descent. Proceedings of the National Academy of Sciences USA 109:45 18266-18272,doi:10.1073/pnas.1206541109.Feuda, R., Hamilton, S.C., McInerney, J.O. and Pisani, D. (2012) Metazoan opsin evolution reveals a simple route to animal vision. Proceedings of the National Academy of Sciences USA 109:46 18868-18872, doi: 10.1073/pnas.1204609109.Cotton, J.A., and McInerney, J.O. (2010) Eukaryotic genes of archaebacterial origin are more important than the more numerous eubacterial genes, irrespective of function.Proceedings of the National Academy of Sciences USA 107:40 17252-17255.pdfMcInerney, J.O. and Pisani, D (2007) Genetics: Paradigm for Life.Science 318:1390-1391.Kinsella, R.J., Fitzpatrick, D.A., Creevey, C.J. and McInerney J.O. (2003). Fatty acid biosynthesis in Mycobacterium tuberculosis: Lateral gene transfer, adaptive evolution and gene duplication.Proceedings of the National Academy of Sciences USA, 100, 10320-10325.pdfMcInerney, J.O. (1998). Replicational and Transcriptional Selection on Codon Usage in Borrelia burgdorferi.Proceedings of the National Academy of Sciences USA: 95 10698-10703.pdf
-
-####jayguo.html####
-Separator length: 2
-Score: 45.0
-Themes
-Smart and Secure InfrastructureProjects
-Reconfigurable AntennasGigabit Wireless CommunicationsCognitive Wireless Communications Networksmm-wave communicationsWireless PositioningSuperconducting ReceiversScience Area
-Antennas and PropagationBiography
-Prof. Yingjie Jay Guo is an internationally recognised R&amp;D leader with proven track record, a well established scientist with over 260 publications and expertise in antennas and wireless communications systems, and an innovator with strong and sustained international industrial impact. He is a Fellow of the Australian Academy of Technological Sciences and Engineering (ATSE), a Fellow of IEEE and a Fellow of the Institute of Engineering and Technology (IET). He is the recipient of Australia Government Engineering Innovation Award (2012), Australia Engineering Excellence Award (2007) and CSIRO Chairman's Medal (2007 &amp; 2012).
-
-####jelena.html####
-Separator length: 6
-Score: 37.0
-Jelena Mirkovic
-
-Project Leader
-USC Information Sciences Institute
-4676 Admiralty Way, Suite 1001
-Marina del Rey, CA 90292
-email: sunshine AT isi DOT edu
-phone: 310-448-9170
-fax: 310-448-9300
-
-Jelena Mirkovic is Computer Scientist at USC/ISI and researchfaculty at USC. She received her MS and PhD from UCLA, working in the LASR group, lead by Prof. PeterReiher. She received BS in Computer Science and Engineering from School ofElectrical Engineering, University of Belgrade, Serbia.
-Jelena's reseach interests span networking and security fields. Her current research is focused on several networksecurity problems: botnets, denial-of-serviceattacks, and IP spoofing. Additionally, she is interested inmethodologies for conducting security experiments and she is workingwith colleagues at USC/ISI on improving DeterLab testbed.Please explore links on the left sidebar to learn more about Jelena'sresearch and teaching.
-
-####jialie.html####
-Separator length: 2
-Score: 35.0
-Jialie's major research interests include information retrieval (IR) in the textual and multimedia domain, economic-aware media analysis, artificial intelligence (particularly machine perception and its applications on IR and business intelligence) and multimedia systems. The  research statement includes a summary of my recent research outcomes and a tentative short/long-term plan. In teaching, Jialie focuses on the education programs related to business modelling and large scale business data analytics.
-
-####jianwu.html####
-Separator length: 1
-Score: 61.0
-Dr. Jianwu Wang is an Assistant Project Scientist at San Diego Supercomputer Center, University of California, San Diego, U.S. He is also an Adjunct Professor at North China University of Technology, China. He got his Ph.D. degree from Institute of Computing Technology, Chinese Academy of Sciences in 2007. His research interests include Service-Oriented Computing, End-User Programming, Scientific Workflow, Distributed Computing, Data-Intensive Computing. He has published over 30 papers with more than 300 citations. He is associate editor or editorial board member of four international journals, co-chair of two related workshops. He is also program committee member for over 20 conferences/workshops, and reviewer of over 10 journals or books.
-
-####jinghe.html####
-Separator length: 2
-Score: 23.0
-Short Bio
-My name is Jiheng Wang and I am a Ph.D. student in the Department of Electrical and Computer Engineering  at  University of Waterloo under the supervision of Prof. Zhou Wang. I grew up in  Beijing and did my undergraduate studies (2004-2008) in Mathematics at Capital Normal University. I also completed a Master Degree (2008-2010) in Statistics-Computing at  University of Waterloo under the supervision of Prof. Guangzhe Fan and of Prof. Zhou Wang.
-
-####johnwinn.html####
-Separator length: 1
-Score: 27.0
-Previously, I was a Ph.D. student in the Inference Group at the Cavendish Laboratory, supervised by Chris Bishop and David MacKay. I have also been a member of the Signal Processing Group at the Engineering Department and the Learning and Vision Group at the MIT AI Lab. My undergraduate degree was in Electrical and Information Sciences at Cambridge University.
-
-####juhua.html####
-Separator length: 2
-Score: 48.0
-Biography [CV] [MyEmail] [MyCFP][My Google Scholar Citations][Interesting Tool: Text2Speech]
-I am currently a 2nd year Ph.D. student supervised by Dr. Jian Pei in School of Computing Science, Simon Fraser University, Canada. My research interests include data mining on automatic file organization and multi-clustering.
-I received my B.Sc. and M.Sc. degrees in Computer Science from Nanjing University in June 2009 and June 2012, respectively. As a master student, I joined the LAMDA group led by Zhi-Hua Zhou, where I worked on machine learning especially semi-supervised learning, distance metric learning and multi-instance multi-label learning, excited with my supervisor Dr. Yuan Jiang and all other excellent members.
-
-####junmiao.html####
-Separator length: 1
-Score: 76.0
-Hu, Q., Huang, X. and Miao, J. Exploring a Multi-Source Fusion Approach for Genomics Information Retrieval, Proceedings of the 2010 IEEE International Conference on Bioinformatics &amp; Biomedicine, Hong Kong, China, December 18-21, 2010                                                                                                ABSTRACT: In this paper, we focus on the biomedicine domain                      to propose a multi-source fusion approach for improving information retrieval performance. First, we consider a common                      scenario for a metasearch system that has access to multiple baselines with retrieving and ranking documents/passages                      by their own models. Second, given selected baselines from                      multiple sources, we employ two modiﬁed fusion rules in                      the proposed approach, reciprocal and combMNZ, to rerank the candidates as the output for evaluation. Third, our                      empirical study on both 2007 and 2006 genomics data sets                      demonstrates the viability of the proposed approach to better                      performance fusion. Fourth, the experimental results show that                      the reciprocal method provides notable improvements on the                      individual baseline, especially on the effective passage MAP,                      the passage2-level and the diversity MAP, the aspect-level.                                                                                                                        Miao, J., Huang, X. J. and Hu, Q. York University at TRECVID 2010: Video Retrieval Evaluation, Proceedings of 2010 TRECVID Evaluation (TRECVID 2010), NIST Special Publication, Gaithersburg, MD, USA, November 15-17, 2010Miao, J., Huang, X. J. and Hu, Q. York University at TRECVID 2010: Video Retrieval Evaluation, Proceedings of 2010 TRECVID Evaluation (TRECVID 2010), NIST Special Publication, Gaithersburg, MD, USA, November 15-17, 2010
-
-####justin.html####
-Separator length: 1
-Score: 26.0
-Now a Professor of Neurology, Pathology, Medicine and Epidemiology, Dr McArthur has become nationally and internationally recognized for his work in the epidemiology and treatment of HIV infection, multiple sclerosis, and other neurological infections and immune-mediated neurological disorders. He has been instrumental in the design and conduct of numerous clinical trials for these disorders. With Jack Griffin, he also developed a clinically-validated technique to use cutaneous nerves to study sensory neuropathies, including those associated with chemotherapy, HIV infection, and diabetes mellitus. He was recipient of the Department of Medicine Osler Housestaff Award in recognition of outstanding contributions to Housestaff teaching for four years, and the JHU Professor’s Award for Distinction in Teaching in the Clinical Sciences.
-
-####kaizang.html####
-Separator length: 2
-Score: 21.0
-I'm currently a Post-Doctoral Fellow worked with Professor Zhou Wang, in the  Department of Electrical and Computer Engneering, University of Waterloo. I got my Ph.D. degree in University of Waterloo, Ontario, Canada, and obtained both of my Master and Bachelor degree in Xidian University, Xi'An, Shannxi, China.
-
-####kori.html####
-Separator length: 1
-Score: 97.0
-James Wallace, Regan Mandryk, and  Kori Inkpen, Comparing content and input redirection in MDEs, in Conference on Computer supported cooperative work (CSCW 2008), Association for Computing Machinery, Inc.,  November 2008Kori Inkpen, Steven Whittaker, Mary Czerwinski, James Wallace, and  Roland Fernandez, GroupBanter: Supporting Serendipitous Group Conversations with IM, in The 4th International Conference on Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom 2008), Orlando, FL,  November 2008Derek Reilly, Bonnie Mackay, Carolyn Watters, and  Kori Inkpen, Small details: using one device to navigate together, in SIGCHI Conference on Computer Supported Cooperative Work (CSCW 2008), Association for Computing Machinery, Inc.,  November 2008Serge Egelman, A.J. Brush, and  Kori Inkpen, Family Accounts:A new paradigm for user accounts within the home environment, in Conference on Computer supported cooperative work (CSCW 2008), Association for Computing Machinery, Inc.,  November 2008A.J. Bernheim Brush, Kori M. Inkpen, and  Kimberly Tee, SPARCS: Exploring Sharing Suggestions to Enhance Family Connectedness, in Conference on Computer supported cooperative work (CSCW 2008), Association for Computing Machinery, Inc.,  November 2008Neema Moraveji, Taemie Kim, James Ge, Udai Singh Pawar, Kathleen Mulcahy, and  Kori Inkpen, Mischief: supporting remote teaching in developing regions, in International conference on Human factors in computing systems (CHI 2008), Association for Computing Machinery, Inc.,  April 2008A.J. Bernheim Brush, Kori M. Inkpen, and  Kimberly Tee, SPARCS Video, Microsoft,  2008Desney S. Tan, Darren Gergle, Regan Mandryk, Kori Inkpen, Melanie Kellar, Kirstie Hawkey, and  Mary Czerwinski, Using job-shop scheduling tasks for evaluating collocated collaboration, pp. 255-267, Springer Verlag,  January 2008Jacob Biehl, William Baker, Brain Bailey, Desney Tan, Kori Inkpen, and  Mary Czerwinski, IMPROMPTU: A New Interaction Framework for Supporting Collaboration in Multiple Display Environments and its Field Evaluation for Co-located Software Development, in Conference on Human Factors in Computing Systems (CHI 2008), Association for Computing Machinery, Inc.,  20082007
-
-####lev.html####
-Separator length: 1
-Score: 34.0
-Brief bio: Lev Reyzin is an Assistant Professor in the MCS group at UIC's mathematics department. His research focuses on computational and statistical learning, but he is more broadly interested in topics ranging from practical issues in machine learning to the theoretical foundations of computerscience.Previously, Lev was a Simons Postdoctoral Fellow at Georgia Tech, and before that, an NSF CI-Fellow at Yahoo! Research, where he tackled problems in computational advertising.Lev received his Ph.D. from Yale under Dana Angluin and his undergraduate degree from Princeton.His work has earned awards at ICML, COLT, and AISTATS, as well as several national fellowships.
-
-####liangchen.html####
-Separator length: 1
-Score: 105.0
-Program Committee Chair     CloudSD 2014: The 2nd International Workshop on Cloud Service Discovery, in conjunction with PAKDD 2014.     Program Committee Member     ADMA 2013: The 9th International Conference on Advanced Data Mining and Applications.    CloudSD 2013: The 1st International Workshop on Cloud Service Discovery, in conjunction with PAKDD 2013.    Complex Service Composition: Sepcial Issue in International Journal of Web Service Research, 2013      Reviewer for Journals IEEE Transactions on System, Man, and Cybernetics, Part A, TSMC(A) IEEE Transactions on Service Computing, TSC IEEE Transactions on Industrial Informatics, TII World Wide Web Journal, WWWJ Journal of Systems and Software, JSS Chinese Journal of Computers, CJC  Reviewer for Conferences The 17th Pacific-Asia Conference on Knowledge Discovery and Data Mining, PAKDD 2013  The 21st ACM Conference on Information and Knowledge Management, CIKM 2012 The 23rd International Symposium on Software Reliability Engineering, ISSRE 2012 The 8th, 9th International Conference on Web Services, ICWS 2010,2011  The 10th International Conference on Service Oriented Computing, ICSOC 2012, 2013  The 8th, 9th International Conference on Service Computing, SCC 2011, 2012  The 13rd International Conference on Information Reuse and Integration, IRI 2012  The 2nd International Conference on Cloud and Green Computing, CGC 2012  The 14th International High Assurance Systems Engineering Symposium, HASE 2012                 Honors and Awards
-
-####linwu.html####
-Separator length: 3
-Score: 15.0
-I am currently a PhD student at CSE, UNSW, under the supervision of  Dr. John Shepherd. Meanwhile, I am serving as a joint research assistant at School of Computing and Mathematics, Charles Sturt University   (CSU), Australia.
-
-####liqing.html####
-Separator length: 6
-Score: 85.0
-Prof. Liqing Zhang
-Position: Professor,    Vice Dean, Dept. of Computer Science &amp; Engineering, Shanghai Jiao Tong University
-
-
-
-Telephone��021-34204423
-Email��
-Office��Room 3-435, SEIEE Building,
-#800, Dongchuan Road, Shanghai
-
-
-
-His long term goal is to understand how    intelligent information is processed in the brain and develop new type    (brain-like) computational models and algorithms for visual and auditory    information processing.
-Currently, his research interests cover    brain-like computing model and its computing mechanism, visual information    representation and global feature analysis, brain signal processing and    brain-computer interface, perception and cognition computing model,    statistical learning and inference.    He has published more than 200 papers in international journals and    conferences.
-He serves as the associate editor of    ��International Journal of Computational Intelligence and Neuroscience��, the    director of the committee of Biocybernetics and    Biomedical engineering, Chinese Automation Association; member of Chinese    Neural Network Society, member of neuroinformatics and neuroengineering    committee, Chinese Neuroscience Association. He is also the reviewer of a    number of international journals, such as IEEE Trans. Neural Networks��IEEE Trans. Signal Processing��IEEE Signal Processing Letters
-
-####machiel.z.lee.html####
-Separator length: 1
-Score: 30.0
-Eternal Sunshine of the Spotless Machine: Protecting Privacy with Ephemeral Channels          Alan M. Dunn, Michael Z. Lee, Suman Jana, Sangman Kim, Mark Silberstein, Yuanzhong Xu, Vitaly Shmatikov, Emmett Witchel.            In the      Proceedings of the 10th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2012), Hollywood, California, October 2012.              [conf]      [pdf]            Improving Server Applications with System Transactions          Sangman Kim, Michael Z. Lee, Alan M. Dunn, Owen S. Hofmann, Xuan Wang, Emmett Witchel, Donald E. Porter.            In the      Proceedings of the 7th ACM European Conference on Computer Systems (EuroSys 2012), Bern, Switzerland, April 2012.              [conf]      [pdf]      Other Publications
-
-####manlung.html####
-Separator length: 1
-Score: 36.0
-COMP327. Data Structures and Algorithms II: Fall 2013, Fall 2012, Fall 2011, Fall 2010.COMP328. Programming Languages: Theory and Applications: Spring 2013, Spring 2012, Spring 2011.COMP433. Information Retrieval: Summer 2013.COMP305P. Data Structures and Algorithms: Fall 2012, Spring 2012.COMP5151. Advanced Database Systems: Spring 2010.COMP306. Software Engineering and User Interfaces: Fall 2009.
-
-####mark.html####
-Separator length: 1
-Score: 42.0
-Mark Girolami will join the Department in January 2014 as a Professor of Statistics. He holds an honorary professorship in Computer Science at Warwick, is an EPSRC Established Career Fellow (2012 - 2017) and previously an EPSRC Advanced Research Fellow (2007 - 2012). He is also honorary Professor of Statistics at University College London, is the Director of the EPSRC funded Research Network on Computational Statistics and Machine Learning and in 2011 was elected to the Fellowship of the Royal Society of Edinburgh when he was also awarded a Royal Society Wolfson Research Merit Award.
-
-####matt.html####
-Separator length: 2
-Score: 10.0
-I am now working with  Prof. Song-Chun Zhu in the center for VCLA at UCLA.I received a Ph.D. in Statistics from UCLA in 2011 under the supervision of Prof. Song-Chun Zhu.
-
-####mehrdad.html####
-Separator length: 2
-Score: 31.0
-I am a PhD student currently finishing my last year at the department of Computer Science in the Michigan State University. I am very fortunate to have Prof. Rong Jin as my advisor. Before joining MSU at 2009, I spent two years as a Ph.D. student at Sharif University of Technology. I received my M.Sc in Computer Engineering department at Sharif University of Technology where my advisor was Prof. Mohammad Ghodsi, and my BS from Amirkabir University of Technology (Tehran Polytechnic).  More information can be found in my  Resume .
-
-####meihui.html####
-Separator length: 1
-Score: 17.0
-I obtained my B.E. in Computer Science from Harbin Institute of Technology, China. After that I was admitted to the PhD program at the National University of Singapore under supervision of Prof. Beng Chin OOI. I am currently working as a Research Assistant at NUS.
-
-####michael.html####
-Separator length: 1
-Score: 12.0
-I work on computational comparative genomics in the  lab of Manolis        Kellis. Specifically, I am developing statistical machinelearning methods for the analysis of protein-coding genes inalignments of multiple related genomes. The purpose of thesemethods is to use evolutionary signatures at the DNA sequencelevel to (1) validate and revise existing gene annotations;(2) identify novel genes and exons ab initio; and(3) discover unusual genic phenomena, such stop codonreadthrough, translational frame-shifting, polycistronicmRNAs, and synonymous sites under purifying selection.
-
-####michale.html####
-Separator length: 1
-Score: 63.0
-From August 2009 to August 2010 I worked as Research Staff Member at NEC Laboratories America (Systems Architecture Dept), in Princeton, NJ. I got my M.S. and Ph.D. degrees in Computer Engineering at Washington University in St. Louis (September 2004-April 2009). During my doctoral studies, I workedat Applied Research Lab under the supervision of Dr. Patrick Crowley. In the meanwhile, I spent summer 2006 at NEC Labs America, Princeton, NJ and summer 2007 at Intel Corporation, Hudson, MA. After my degree, I spent a few more months at Washington University.From December 2000 to September 2004 I worked at IBM Deutschland Research &amp; Development, Germany, within IBM eServer zSeries firmware group.  Previous to that, I got my Laurea Degree (cum laude) at Politecnico di Milano, Italy (October 2000).
-
-####mohanmed.html####
-Separator length: 2
-Score: 77.0
-By the words of the great poet, Hafez Ibrahim, the legend Umm Kulthumsang:..and the builders of the pyramids in the ancient age sufficed me the talk when challenged.
-Listen to great music and songRobert Gordon UniversityUniversity of PortsmouthMonash UniversityCSIRO - HobartUniversity of SydneyIBM Thomas J. Watson Research Center
-Publications
-Recent/Representative Publications
-Gomes J. B., Gaber M. M., Menasalvas E., and Sousa P., Mining Recurring Concepts in a Dynamic Feature Space, IEEE Transactions on Neural Networks and Learning Systems, Volume 25, Issue 1, pp. 95-110, January 2014. [DOI]
-Gaber M. M., Krishnaswamy S., Gillick B., AlTaiar H., Nicoloudis N., Liono J., Zaslavsky A., Interactive Self-Adaptive Clutter-Aware Visualisation for Mobile Data Mining, Journal of Computer and System Sciences, Volume 79 Issue 3, May 2013, pp. 369-382. Elsevier, ISSN 0022-0000. [DOI]
-Žliobaitė I., Bifet, A., Gaber, M. M., Gabrys B., Gama J., Minku L. and Musial K., Next Challenges for Adaptive Learning Systems, ACM SIGKDD Explorations Newsletter, Volume 14 Issue 1, June 2012, pp. 48-55, ACM press. [DOI]
-Chong S. K., Gaber M. M., Krishnaswamy S., and Loke S. W., Energy Conservation in Wireless Sensor Networks: A Rule-based Approach, Knowledge and Information Systems (KAIS) Journal, Volume 28, Number 3, pp. 579-614, 2011, ISSN 0219-1377, Springer London. [DOI]
-List of Publications
-Books
-
-####molecular.html####
-Separator length: 1
-Score: 39.0
-I have served as deputy chairman of Lhasa Ltd., on the Science Advisory Board of a number of biotechnology companies and international academic advisory and grant awarding bodies (Netherlands Genomics Initiative, NIH Roadmap), on the editorial board of Journal of Chemical Information and Modelling and the Encyclopaedia of Computational Chemistry, a fellow of the Royal Society of Chemistry and a member of the publication board and chair of the IT committee, an honorary fellow of the American Association for Cancer Research and a Fellow of Clare College Cambridge. I have been a consultant to Pfizer, Teva, IDBS, Tripos, Unilever, AstraZeneca, Boehringer Ingelheim, Lhasa Ltd. Inpharmatica, Tripos, Pharmacia, Arrow Therapeutics. I have additionally received over &pound;10M in grants over the last ten years, from EPSRC, BBSRC, DTI, MRC and Pharmaceutical and software companies.
-
-####nianwen.html####
-Separator length: 1
-Score: 57.0
-Nianwen Xue is an Assistant Professor in the Computer Science Department  and the Language and Linguistics Program at Brandeis University. Dr. Xue directs  the Chinese Language Processing Group in the Computer Science Deparment. Before  joining Brandeis, Dr. Xue was a Research Assistant Professor in the  Department of Linguistics and the Center for Computational Language and  Education Research (CLEAR) at the University of Colorado at Boulder.  Prior to that, he was a postdoctoral fellow in the Institute for  Research in Cognitive Science and the Department of Computer and  Information Science at the University of Pennsylvania. He received his  PhD in Linguistics from University of Delaware. His research interests  include syntactic, semantic, temporal and discourse annotation,  semantic-role labeling and Machine Translation. In addition to building  syntactically and semantically annotated corpora, he has also published  work on Chinese word segmentation and semantic parsing using statistical  machine-learning techniques.
-
-####nikos.html####
-Separator length: 1
-Score: 24.0
-I received my diploma in Computer Engineering from the Computer Engineering and InformaticsDepartment, University of Patras, Greece, in 1995 and my PhD from the Computer Science Department, HKUST in 2000. Currently, I am aprofessor at the Department of ComputerScience, University of Hong Kong. Beforejoining HKU, I was a post-doctoral researcher at the Dutch national center forMathematics and Computer Science (CWI). During 2008-09, I was on sabbatical leave to the Max Planck Institute for Informatics.
-
-####olivia.html####
-Separator length: 1
-Score: 48.0
-The chemistry and pharmacological activity of plants used in Anglo-Saxon England included St John’s Wort, Yarrow and White Horehound, all currently sold as over the counter botanicals. St John’s Wort is also sold in standardised pharmaceutical formulations to treat mild depression and at high strength is a prescription only medicine (POM). This truly world-leading output rapidly cements the seminal review with laboratory data on the antimicrobial activity of three native plants commonly used for wound-healing in Medieval times. Several of the plant formulations reflecting those used in Anglo-Saxon England were as active as the antimicrobial drug chloramphenicol against common Gram positive wound pathogens Staphylococcus aureus and Bacillus subtilis. This multi-disciplinary approach involved linguists, ethnobotanists, medical historians, chemists, pharmacologists, pharmaceutical scientists and herbal practitioners. Using the bioinformatic technology developed by MRG, this paper has already had significant impact in shedding light via rigorous scientific data on the evidence based for medicine as far back as the so-called “Dark Ages”. The work has signalled a higher impact for medical historians’ outputs, created a new area of scientific research on Medieval Medicine and created notable research links with University of Cambridge, the International Society of Anglo-Saxonists (USA) and Kew Gardens.
-
-####pappas.html####
-Separator length: 1
-Score: 29.0
-Before joining IBM Research I was a graduate student at the Computer Science department of University of California, Los Angeles, where I received my Ph.D. and M.Sc. degrees in 2006 and 2003 respectively. I did my undergrad at the National Technical University of Athens where I received my B.Eng. degree in 2001 from the department of Electrical and Computer Engineering.
-
-####paulviola.html####
-Separator length: 1
-Score: 54.0
-Machine Learning                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Search                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Information Retrieval                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Natural Language Processing                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Algorithms                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Computer Science                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Data Mining                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Distributed Systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Image Processing                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Engineering Management                                                                                                                                                                                                                                                                                                                                                                                                                                                                         C++                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Scalability                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Hadoop                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Multithreading                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Perl                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Human Computer Interaction                                                                                                                                                                                                                                                                                                                                                                                                                                                                         C#                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Optimization                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Computer Vision                                                                                                                                                                                                                                                                                                                                                                                                                                                                         System Architecture                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Software Development                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Big Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Software Design                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Python                                                                                                                                                                                                                                                                                                                                                                                                                                                                         High Performance Computing                                                                                                                                                                                                                                                                                                                                                                                                                                                                         MapReduce                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Neural Networks                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Signal Processing                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Artificial Intelligence                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Software Engineering                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Agile Methodologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Java                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Parallel Computing                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Object Oriented Design                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Pattern Recognition                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Algorithm Design                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Mindfulness                                                                                                                                                                                                                                                                                                                                                                                                                                                                         REST                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Text Mining                                                                                                                                                                                                                                                                                                                                                                                                                                                                         C                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Information Extraction                                                                                                                                                                                                                                                         View All (41) Skills                  View Fewer Skills
-
-####petros.html####
-Separator length: 1
-Score: 18.0
-Predictive analytics for network management Wireless network systems and mobile computing platforms Autonomic managementIn 2009, I co-founded and served as General co-Chair of the InternationalConference on Mobile Computing, Applications and Services (MobiCASE 2009).
-
-####pinghua.html####
-Separator length: 1
-Score: 33.0
-I am currently apostdoctoral research associate in the Computer Science and EngineeringDepartment and the Centerfor Evolutionary Medicine and Informatics of The Biodesign Institute at Arizona State University. My cooperativesupervisor is Prof. Jieping Ye.Before joining ASU, I received my bachelor and Ph.D degrees from Xi'an Jiaotong University in 2008 and Department of Automation at Tsinghua University in 2013,respectively. My Ph.D supervisor is Prof. ChangshuiZhang. During 2011.11-2012.08 and 2013.02-2013.05, I was a visiting scholarin The Biodesign Institute at Arizona State University, where I worked with Prof. Jieping Ye.
-
-####ra.html####
-Separator length: 2
 Score: -1.0
 **Chunk PART: 0
-Rakesh Agrawal's Home Page
+
 
 **Chunk PART: 1
 
@@ -501,20 +92,661 @@ Rakesh Agrawal's Home Page
 
 
 **Chunk PART: 3
-Activities
-Papers
-Citations
-Patents
-Press
+
 
 **Chunk PART: 4
-Rakesh Agrawal
-Technical Fellow
-Microsoft Search Labs
-1065 La Avenida, Mountain View, CA 94043
+
 
 **Chunk PART: 5
-ragrawal AT acm DOT org
+
+
+**Chunk PART: 6
+
+
+**Chunk PART: 7
+
+
+**Chunk PART: 8
+
+
+**Chunk PART: 9
+
+
+**Chunk PART: 10
+
+
+**Chunk PART: 11
+
+
+**Chunk PART: 12
+
+
+**Chunk PART: 13
+
+
+**Chunk PART: 14
+
+
+**Chunk PART: 15
+
+
+**Chunk PART: 16
+
+
+**Chunk PART: 17
+Dept. of Electrical &amp; Comp. Eng.
+
+
+**Chunk PART: 18
+
+
+**Chunk PART: 19
+
+
+**Chunk PART: 20
+
+
+**Chunk PART: 21
+
+
+**Chunk PART: 22
+
+
+**Chunk PART: 23
+
+
+**Chunk PART: 24
+
+
+**Chunk PART: 25
+
+
+**Chunk PART: 26
+
+
+**Chunk PART: 27
+
+
+**Chunk PART: 28
+
+
+**Chunk PART: 29
+
+
+**Chunk PART: 30
+
+
+**Chunk PART: 31
+
+
+**Chunk PART: 32
+
+
+**Chunk PART: 33
+
+
+**Chunk PART: 34
+
+
+**Chunk PART: 35
+
+
+**Chunk PART: 36
+
+
+**Chunk PART: 37
+Like other professors, I am overloaded with e-mail inquiries about graduateECE studies and can answe...
+
+**Chunk PART: 38
+Mail comments about this page tobevans@ece.utexas.edu.
+
+
+No bio found.
+
+####caiming.html####
+Separator length: 5
+Score: 34.0
+Caiming Xiong is a Ph.D. candidate at the department ofComputer Science and Engineering, University at Buffalo, SUNY.Hereceived his B.S. and M.S. of Computer Science degree from Huazhong University of Science and Technology(HUST) in the year 2005 and 2007 in China.Xiong has been an active member of Dr. Jason J.Corso’s Vision and Perceptual Machines Lab (VPML) at SUNY-Buffalo since 09/2008.
+Metric Learning, Active Clustering, Large Scale Retrieval, Streaming Temporal Segmentation, Video Action Analysis, Human Computer Interaction.
+
+
+####chaochen.html####
+Separator length: 3
+Score: 39.0
+I am currently working with  Prof. Dimitris Metaxas  at     Computational Biomedicine Imaging and Modeling Center ,      Rutgers University . From 2009 to 2012, I worked with     Prof. Herbert Edelsbrunner at Institute of Science and Technology Austria.    I obtained my Ph.D. degree from Rensselaer Polytechnic Institute in 2009     (advised by Prof. Daniel Freedman).
+My research focuses on data and image analysis, with an emphasis on the usage of topological and geometric methods. In particular, I am interested in using theories in quantitative computational topology, e.g. persistent homology, to extract and analyze structures of data of modern age.
+
+
+####chenfeng.html####
+Separator length: 1
+Score: 27.0
+My research philosophy is to bridge the gap between theoretical advances and system implementations.In particular, I am interested in adapting new ideas and tools frominformation theory, coding theory, and optimization to designbetter networking systems.Currently, I am focusing on applying network coding to improve wireless networks, as well as adapting recent optimization methods to improve cloud computing.
+
+
+####chenglung.html####
+Separator length: 1
+Score: 55.0
+This book starts by introducing the operating environment of airlines, the evolution of airline networks, the driving economic forces behind airline scheduling and the general practices of airline schedule planning procedures. Airline operations at airports are discussed in detail in Chapter 2 including activities by airlines at airports, the uncertainties involved in daily operations, and the impact of uncertain disruptions on the management of airline operations. Chapter 3 explores the issues in managing daily aircraft turnaround operations, combining industry practices and mathematical models for managing airline ground operations at airports. The network effects of airline operations in Chapter 4 outlines the impact of stochastic disruptions on airline networks, followed by operational management of complex airline networks and on-time performance in Chapter 5. Chapter 6 starts by introducing readers the emerging concept of robust airline scheduling and operational reliability of airline networks. Recent advances in modelling and optimising airline operations and airline schedules are discussed and examples are given from real-world cases. Mathematical models widely used in the industry for solving airline operations and management issues are discussed in the book. Further details of these models are placed in the Appendix for interested and advanced readers.
+
+
+####chris.html####
+Separator length: 1
+Score: 33.0
+After studying Computer Science and Mathematics at Carnegie Mellon University, I joined Microsoft in 2000 to work on the Intentional Programming project, an extensible compiler and development framework. I moved to the Natural Language Processing group in 2001, where my research has mostly focused on statistical machine translation powering Microsoft Translator, especially on several generations of a syntax directed translation system that powers over half of the translation systems. I am also interested in semantic parsing, paraphrase methods, and very practical problems such as spelling correction and transliteration.
+
+
+####claudia.html####
+Separator length: 2
+Score: 72.0
+SEMANTIC-PA Semantic Web Technologies for the Public Administration - Apulia Region Strategic Project, 2009-2011  ATENEO 2009 Metodi e Tecniche di Semantic Web Mining (Methods and Techniques for the Semantic Web Mining)  DIPIS Distributed Production as Innovative System - Apulia Region Strategic Project, 2007-2009  ATENEO 2007 Metodi di scoperta della conoscenza nelle basi di dati: evoluzioni rispetto allo schema unimodale (Knowledge Discovery in databases: extensions with respect to the unimodal schema)  DDTA Distretti Digitali del Tessile e Abbigliamento, Apulia Region, 2006-2008. Project supported by Dipartimento per Innovazione e Tecnologie(Department for Innovation and Technology).  PRIN COFIN 2005 Apprendimento induttivo per la annotazione automatica su base semantica di documenti (Inductive Learning for semantic-based annotation documents). National Ministry of Education Research and University project.  PRIN COFIN 2004 Astrazione e Logica descrittiva in Apprendimento Automatico (Abstraction and Description Logic in Machine Learning). National Ministry of Education Research and University project.  PRIN COFIN 2003 Metodi e Tecniche di apprendimento automatico per il Semantic Web (Machine Learning methods and techniques for the Semantic Web). National Ministry of Education Research and University project.    IST-1999-10536 project SPIN! Spatial Mining on Data of Public Interest, 2000-2002.   IST-2000-25161 project ASSO        Analysis System of Symbolic Official data, 2001-2003.
+
+
+####craig.html####
+Separator length: 3
+Score: 49.0
+Links:   Google+,Google Scholar profile,  LinkedIn profile,  Twitter,  Microsoft Academic Search profile.
+I am a Professor in theDepartment of Computer Science,University of Toronto and a member ofArtificial Intelligence Group. My current research effortsfocus on various aspects of decision making under uncertainty:preference elicitation, mechanism design, game theory and multiagent decision processes, economic models, social choice, computational advertising, Markov decision processes, reinforcement learning and probabilistic inference.  In a past research life, I spent quite a bit of time working in the areas of knowledge representation, belief revision, default reasoning, and philosophical logic.See a brief academic biofor more details.
+I am also a Co-founder (with Tyler Lu)of an exciting new start-up, Granata Decision Systems.
+For more information about my research and teaching, check out the linksbelow.
+
+
+####david.html####
+Separator length: 1
+Score: 29.0
+I am a post-doctoral researcher with Daphne Koller at Stanford University. I did my PhD with Zoubin Ghahramani in the Machine Learning group of the Cambridge University Engineering Department. I was the Roger Needham Scholar at Wolfson College, funded by Microsoft Research. My undergraduate degree comprised two years of Physics before switching to Engineering to complete an MEng with Zoubin. I took the MSc Bioinformatics and Systems Biology at Imperial College in 2007/8.
+
+
+####dejing.html####
+Separator length: 2
+Score: 33.0
+I am an Associate Professor in the  Computer and Information Science Department at the University of Oregon and lead the Advanced Integration and Mining Lab (AIM Lab).  I received my Ph.D. degree in Artificial Intelligence in 2004 (advisor: Drew McDermott) at Yale University. I received my B.E. degree in Electronic Engineering in 1996 at Tsinghua University.
+I focus on three critical challenges in processing data and knowledge: heterogeneity, reusability, and scalability.
+
+
+####deke.html####
+Separator length: 3
+Score: 49.0
+National 973 Basic Research Program   (����ص���о���չ�ƻ�973�����ѧ����Ŀ), No.2014CB347800, “Software-defined Networking   (SDN)-based Cloud Datacenter Networks (����������������������������ؼ���), which is one of   the largest SDN projects in China, Co-Principal Investigator, 01/2014–12/2018.
+Program for New   Century Excellent Talents in University(���������������˲�֧�ּƻ���Ŀ),  Ministry of Education, China, 2013.
+NSFC�����Ȼ��ѧ���������Ŀ (The National Natural   Science Foundation of China), No.61170284, Data-centric Routing in Wireless Multi-hop Networks (���߶�������������&middot;�������о�), Principal Investigator,   01/2012–12/2015.
+NSFC�����Ȼ��ѧ���������Ŀ (The National Natural   Science Foundation of China), No.60903206, Research of Spatial Reuse Based on MIMO and Interference Alignment in Multi-hop Wireless Networks (���߶��������л���MIMO�͸��ŵ�׼�Ŀռ����������о�), Principal Investigator, 01/2010–12/2012.
+Excellent Young Scholar Award in National University of   Defense Technology, Principal Investigator, 06/2013–06/2016.
+
+
+####dieter.html####
+Separator length: 1
+Score: 31.0
+Dieter's research interests lie in artificial intelligence, robotics and probabilistic state estimation. He is the director of the UW Robotics and State Estimation Lab RSE-Lab.  From 2009 to 2011, Dieter was director of the Intel Research Lab Seattle, and he currently serves as the academic PI of the Intel Science and Technology Center for Pervasive Computing.
+
+
+####dwl.html####
+Separator length: 1
+Score: 28.0
+In applied research, under his directorship, CECID has received many prestigious grants from the Innovation and Technology Commission (ITC) of Hong Kong SAR Government, in a total amout of HK$60M, from 2001-2009. Together with his team, Prof. Cheung has developed an open-source ebXML gateway used by developers from more than 80+ countries. This open-source product received prominent awards in the Hong Kong Computer Society's (HKCS) 2004 IT Excellence Awards competition; the 2004 Asia-Pacific ICT Awards competition, and the 2005 Linux Business Awards competition.
+
+
+####emilio.html####
+Separator length: 1
+Score: 94.0
+Emilio Frazzoli is a Professor of Aeronautics and Astronautics with the Laboratory for Information and Decision Systems, and the Operations Research Center at the Massachusetts Institute of Technology. He received a Laurea degree in Aerospace Engineering from the University of Rome, “Sapienza” , Italy, in 1994, and a Ph. D. degree in Navigation and Control Systems from the Department of Aeronautics and Astronautics of the Massachusetts Institute of Technology, in 2001. Between 1994 and 1997 he worked as an officer in the Italian Navy, and as a spacecraft dynamics specialist for the European Space Agency Operations Centre (ESOC) in Darmstadt, Germany, and Telespazio, in Rome, Italy. From 2001 to 2004 he was an Assistant Professor of Aerospace Engineering at the University of Illinois at Urbana-Champaign. From 2004 to 2006 he was an Assistant Professor of Mechanical and Aerospace Engineering at the University of California, Los Angeles. He was the recipient of a NSF CAREER award in 2002. He is an Associate Fellow of the American Institute of Aeronautics and Astronautics and a Senior Member of the Institute for Electrical and Electronics Engineers.  He is currently serving as an Associate Editor for the IEEE Transactions on Automatic Control, for the AIAA Journal of Guidance, Control, and Dynamics, and for the Journal of Optimization Theory and Applications. He is currently the Lead Principal Investigator of the Future Urban Mobility IRG of the Singapore-MIT Alliance for Research and Technology (SMART).
+
+
+####fabrizio.html####
+Separator length: 2
+Score: -1.0
+**Chunk PART: 0
+
+
+**Chunk PART: 1
+
+
+**Chunk PART: 2
+
+
+**Chunk PART: 3
+
+
+**Chunk PART: 4
+
+
+**Chunk PART: 5
+
+
+**Chunk PART: 6
+Ricevimento studenti: su appuntamento richiesto via email o telefono.
+
+
+**Chunk PART: 7
+
+
+**Chunk PART: 8
+
+
+**Chunk PART: 9
+
+
+**Chunk PART: 10
+
+
+**Chunk PART: 11
+
+
+**Chunk PART: 12
+My aim is to develop intelligent systems by combining in novel ways techniques from  artificial intelligence, logic  and statistics.
+
+
+**Chunk PART: 13
+
+
+**Chunk PART: 14
+
+
+**Chunk PART: 15
+
+
+**Chunk PART: 16
+
+
+**Chunk PART: 17
+
+
+**Chunk PART: 18
+
+
+**Chunk PART: 19
+
+
+**Chunk PART: 20
+
+
+**Chunk PART: 21
+
+
+**Chunk PART: 22
+
+
+**Chunk PART: 23
+
+
+**Chunk PART: 24
+
+
+**Chunk PART: 25
+
+
+**Chunk PART: 26
+
+
+**Chunk PART: 27
+
+
+**Chunk PART: 28
+
+
+**Chunk PART: 29
+
+
+**Chunk PART: 30
+
+
+**Chunk PART: 31
+
+
+**Chunk PART: 32
+
+
+**Chunk PART: 33
+
+
+**Chunk PART: 34
+
+
+**Chunk PART: 35
+
+
+**Chunk PART: 36
+
+
+**Chunk PART: 37
+
+
+**Chunk PART: 38
+
+
+**Chunk PART: 39
+
+
+**Chunk PART: 40
+
+
+**Chunk PART: 41
+
+
+**Chunk PART: 42
+
+
+**Chunk PART: 43
+
+
+**Chunk PART: 44
+
+
+**Chunk PART: 45
+
+
+**Chunk PART: 46
+
+
+**Chunk PART: 47
+
+
+**Chunk PART: 48
+
+
+**Chunk PART: 49
+
+
+**Chunk PART: 50
+
+
+**Chunk PART: 51
+Hobby: trekking.
+
+
+No bio found.
+
+####farzin.html####
+Separator length: 1
+Score: 39.0
+Farzin Deravi obtained his first degree in Engineering and Economics from the University of Oxford in 1981 and his M.Sc. in Electronic Engineering from Imperial College, University of London in 1982. From 1983 to 1987 he worked as a research assistant at the University of Wales, Swansea where he obtained his Ph.D. In 1987 he joined the academic staff at Swansea where he was active in teaching and research in the department of Electrical and Electronic Engineering. In 1998 he joined the Department of Electronics at the University of Kent where he is Reader in Information Engineering.
+
+
+####flach.html####
+Separator length: 1
+Score: 67.0
+Peter Flach has been Professor of Artificial Intelligence at theUniversity of Bristol since 2003. An internationally leading researcher in the areas of mining highlystructured data and the evaluation and improvement of machine learningmodels using ROC analysis, he has also publishedon the logic and philosophy of machine learning, and on the combination of logic and probability. He is author of Simply Logical: Intelligent Reasoning by Example (John Wiley, 1994)and Machine Learning: the Art and Science of Algorithms that Make Sense of Data (Cambridge University Press, 2012).Prof Flach is the Editor-in-Chief of the Machine Learning journal, one of the two top journals in the field that has been publishedfor over 25 years by Kluwer and now Springer. He was Programme Co-Chair of the1999 International Conference on Inductive Logic Programming, the 2001 European Conference on Machine Learning, the 2009 ACM Conference on Knowledge Discovery and Data Mining, and the2012 European Conference on Machine Learning and Knowledge Discovery in Databases in Bristol.
+
+
+####fran.html####
+Separator length: 2
+Score: 18.0
+IEEE CommunicationsSociety and Information Theory Society Joint Paper Award, for the paper co-authored with Ralf K&ouml;tter entitled'Coding for Errors and Erasures in Random Network Coding', publishedin IEEE Transactions on Information Theory, vol. 54, no. 8,pp. 3579-3591, August 2008.
+
+
+####gajendra.html####
+Separator length: 2
+Score: 41.0
+Scientific Contribution: Raghava is a strong suporter of open source software and open access, all resouces develoed at his group are free for scientific use. His group developed more than 180 web servers and 20 databases in the field of computer-aided drug/vaccine design (probably highest number of services developed/maintained from a single group in the world). These services are heavily used by scientific community, nearly 100,000 hits per day. Group published more than 150 research papers in reputed journals with avargae impact factor more than 3. Most of papers are highly cited, total citations more than 5000 with h-index 41 and g-index 91 as per google scholar. In addition group contributed/maintained number of web sites that include i) CRDD, ii) OSCADD, iii) OSDDlinux, iv) CSIR Informatics Portal, v) GENESIS, vi) GPSR Packages, vii) OSDDchem, viii) Sysborg2, ix) OSDD .
+
+
+####gautam.html####
+Separator length: 4
+Score: 147.0
+Gautam    Das is Professor and Head of the Database    Exploration Laboratory (DBXLAB) at the CSE    department of UT-Arlington. Prior to joining UTA in Fall 2004, Dr. Das has    held positions at Microsoft Research, Compaq Corporation and the    University of Memphis. He graduated with a B.Tech in computer science from IIT Kanpur, India, and with a Ph.D in computer science    from the University of Wisconsin, Madison.
+Dr.    Das has broad research interests in all aspects of Big Data Exploration,    including databases, data analytics and mining, information retrieval, and    algorithms. His current research is focused on data management and    algorithmic problems in the deep web, social networks and collaborative    media, as well as ranking, search, and analytics problems in databases. His    research has resulted in over 150 papers, many of which have appeared in    premier data mining, database and algorithms conferences and journals. His    work has received several awards, including the IEEE ICDE Influential Paper    award received in 2012, Best Student Paper Award of CIKM 2013, VLDB Journal    special issues on Best Papers of VLDB 2012 and VLDB 2007, Best Paper of    ECML/PKDD 2006, and Best Paper (runner up) of ACM SIGKDD 1998.
+He    is on the Editorial Board of the journals ACM TODS and IEEE TKDE. He has    served as General Chair of ICIT 2009, Program Chair of COMAD 2008, CIT 2004    and SIGMOD-DMKD 2004, Best Paper Awards Chair of ACM SIGKDD 2006, as well    as in program committees of numerous conferences. He has served as a Guest    Editor for the ACM TKDD special issue devoted to the best papers of ACM    SIGKDD 2006.
+Dr.    Das's research has been supported by grants from    National Science Foundation, Office of Naval Research, Department of    Education, Texas Higher Education Coordinating Board, Microsoft Research,    Nokia Research, Cadence Design Systems and Apollo Data Technologies.
+
+
+####george.e.html####
+Separator length: 1
+Score: 16.0
+I have implemented a version of the Hessian Free(truncated Newton) optimization approach that is based on JamesMartens's exposition of it in his paper that explored using HF for deeplearning (please see James Martens'sresearch page). Myparticular implementation was made possible with IlyaSutskever's guidance and some of the implementation choices havebeen made to make it easier to compare my code to various optimizershe has written. Despite Ilya's generous assistance, any bugs ordefects that might exist in the code I post here are my own. Pleasesee Ilya's publicationpage for code he has released for HF and recurrent neural nets. Itisn't too difficult to wrap his recurrent neural net model code in away that let's my optimizer code optimize it. Without furtherado, here is the code. The file is largebecause it also contains a copy of the curves dataset. The coderequires gnumpy to run and I recommendusing cudamat, writtenby Volodymyr Mnih, andrunning the code on a GPU and not in the slower simulation mode ofgnumpy.
+
+
+####george.html####
+Separator length: 1
+Score: 16.0
+I am the principal architect of MOLGENIS/compute, the workflow management framework that enables data and computational management in a distributed execution environment. The system provides functionality to run analysis      in heterogeneous computational clusters and grids, trace data, show how final results were created and how.
+
+
+####haifeng.html####
+Separator length: 1
+Score: 33.0
+Haifeng Liu's Homepage - staff Homepage, ZJU                                Home         Login        Help            Haifeng Liu's Homepage                                                                                    Chinese                                        English Home                                    ProfileWelcome. Haifeng Liu received her Ph.D. degree in Department of Computer Science, University of Toronto under the supervision of Professor H-Arno Jacobsen in 2009. She got her B.S. degree in Computer Science and Technology from the Special Class for the Gifted Young, University of Science and Technology of China. Now She works an associatet professor in the College of Computer Science, ZheJiang University.
+
+
+####hojatollalh.html####
+Separator length: 1
+Score: 25.0
+I received the Bachelor’s degree in Electrical Engineering from Isfahan University of Technology in Iran in 2006. Then, in 2009, I graduated from Amirkabir University of Technology (Tehran Polytechnic), Iran with Masters in Electrical Engineering where my thesis was focused on Robust Speech Recognition Using Sub-band Processing supervised by Dr. Seyed Mohammad Ahadi.
+
+
+####hongning.html####
+Separator length: 2
+Score: 21.0
+I am a graduate student in the Text Information Management Group (TIMan) in Department of Computer Science of University of Illinois at Urbana-Champaign. My advisor is Professor Chengxiang Zhai.
+Find my latest CV here and research statement here (updated Feburary, 2014).
+Data Mining, Information Retrieval, Machine Learning and their applications.
+
+
+####hpk.html####
+Separator length: 1
+Score: 58.0
+Hans-Peter Kriegel has been a Professor of Informatics at Ludwig-Maximilians-Universitaet Muenchen, Germany, since 1991. He has published over a wide range of data mining topics including clustering, outlier detection and high-dimensional data analysis. From the beginning of his research he was and still is working on spatial data management and similarity search, now in particular on searching and mining uncertain data, including uncertain spatio-temporal data. In 2009 the Association for Computing Machinery (ACM) elected Professor Kriegel an ACM Fellow for his contributions to knowledge discovery and data mining, similarity search, spatial data management, and access-methods for high-dimensional data. So far, his more than 450 publications have been cited more than 30,000 times according to Google Scholar. Microsoft Academic Search currently ranks him Number 5 for field rating in the field of data mining.
+
+
+####james.html####
+Separator length: 1
+Score: 31.0
+His BSc and PhD were awarded by University College Galway, where he studied from 1987 until 1994. Subsequently he worked as a post-doc at the National Diagnostics Centre in Galway and in the Department of Zoology at The Natural History Museum, London. In 1999 he set up the bioinformatics research group at NUI Maynooth and became the director of the Genetics and Bioinformatics degree course. for the academic year 2012-2013, he took a sabbatical at the Center for Communicable Disease Dynamics at Harvard University, USA.
+
+
+####jayguo.html####
+Separator length: 2
+Score: 44.0
+Jay has over twenty years of international industrial and academic experience across three continents. Currently, he is the Leader of the Smart and Secure Infrastructure research theme in CSIRO's Digital Productivity and Services National Flagship, Australia, and the Director of Australia China Research Centre for Wireless Communications. He is responsible for CSIRO�s strategic planning, direction setting and the delivery of programs and projects in the fields of broadband and wireless communications systems and networks, broadband services, cloud computing, cyber security, and sensor informatics. Until January 2010, Jay served as the Director of the Wireless Technologies Laboratory in CSIRO ICT Centre.
+
+
+####jelena.html####
+Separator length: 6
+Score: 31.0
+Jelena Mirkovic is Computer Scientist at USC/ISI and researchfaculty at USC. She received her MS and PhD from UCLA, working in the LASR group, lead by Prof. PeterReiher. She received BS in Computer Science and Engineering from School ofElectrical Engineering, University of Belgrade, Serbia.
+Jelena's reseach interests span networking and security fields. Her current research is focused on several networksecurity problems: botnets, denial-of-serviceattacks, and IP spoofing. Additionally, she is interested inmethodologies for conducting security experiments and she is workingwith colleagues at USC/ISI on improving DeterLab testbed.Please explore links on the left sidebar to learn more about Jelena'sresearch and teaching.
+
+
+####jialie.html####
+Separator length: 2
+Score: 35.0
+Jialie's major research interests include information retrieval (IR) in the textual and multimedia domain, economic-aware media analysis, artificial intelligence (particularly machine perception and its applications on IR and business intelligence) and multimedia systems. The  research statement includes a summary of my recent research outcomes and a tentative short/long-term plan. In teaching, Jialie focuses on the education programs related to business modelling and large scale business data analytics.
+
+
+####jianwu.html####
+Separator length: 1
+Score: 61.0
+Dr. Jianwu Wang is an Assistant Project Scientist at San Diego Supercomputer Center, University of California, San Diego, U.S. He is also an Adjunct Professor at North China University of Technology, China. He got his Ph.D. degree from Institute of Computing Technology, Chinese Academy of Sciences in 2007. His research interests include Service-Oriented Computing, End-User Programming, Scientific Workflow, Distributed Computing, Data-Intensive Computing. He has published over 30 papers with more than 300 citations. He is associate editor or editorial board member of four international journals, co-chair of two related workshops. He is also program committee member for over 20 conferences/workshops, and reviewer of over 10 journals or books.
+
+
+####jinghe.html####
+Separator length: 2
+Score: 23.0
+My name is Jiheng Wang and I am a Ph.D. student in the Department of Electrical and Computer Engineering  at  University of Waterloo under the supervision of Prof. Zhou Wang. I grew up in  Beijing and did my undergraduate studies (2004-2008) in Mathematics at Capital Normal University. I also completed a Master Degree (2008-2010) in Statistics-Computing at  University of Waterloo under the supervision of Prof. Guangzhe Fan and of Prof. Zhou Wang.
+
+
+####johnwinn.html####
+Separator length: 1
+Score: 27.0
+Previously, I was a Ph.D. student in the Inference Group at the Cavendish Laboratory, supervised by Chris Bishop and David MacKay. I have also been a member of the Signal Processing Group at the Engineering Department and the Learning and Vision Group at the MIT AI Lab. My undergraduate degree was in Electrical and Information Sciences at Cambridge University.
+
+
+####juhua.html####
+Separator length: 2
+Score: 44.0
+I am currently a 2nd year Ph.D. student supervised by Dr. Jian Pei in School of Computing Science, Simon Fraser University, Canada. My research interests include data mining on automatic file organization and multi-clustering.
+I received my B.Sc. and M.Sc. degrees in Computer Science from Nanjing University in June 2009 and June 2012, respectively. As a master student, I joined the LAMDA group led by Zhi-Hua Zhou, where I worked on machine learning especially semi-supervised learning, distance metric learning and multi-instance multi-label learning, excited with my supervisor Dr. Yuan Jiang and all other excellent members.
+
+
+####junmiao.html####
+Separator length: 1
+Score: 23.0
+RESULTS:                      In the proposed approach, we first consider a common scenario for a metasearch system that has access to multiple baselines with retrieving and ranking documents/passages by their own models. Then, given selected baselines from multiple sources, we investigate three modified fusion methods in the proposed approach, reciprocal, CombMNZ and CombSUM, to re-rank the candidates as the outputs for evaluation. Our empirical study on both 2007 and 2006 genomics data sets demonstrates the viability of the proposed approach for obtaining better performance. Furthermore, the experimental results show that the reciprocal method provides notable improvements on the individual baseline, especially on the passage2-level MAP and the aspect-level MAP.
+
+
+####justin.html####
+Separator length: 1
+Score: 26.0
+Now a Professor of Neurology, Pathology, Medicine and Epidemiology, Dr McArthur has become nationally and internationally recognized for his work in the epidemiology and treatment of HIV infection, multiple sclerosis, and other neurological infections and immune-mediated neurological disorders. He has been instrumental in the design and conduct of numerous clinical trials for these disorders. With Jack Griffin, he also developed a clinically-validated technique to use cutaneous nerves to study sensory neuropathies, including those associated with chemotherapy, HIV infection, and diabetes mellitus. He was recipient of the Department of Medicine Osler Housestaff Award in recognition of outstanding contributions to Housestaff teaching for four years, and the JHU Professor’s Award for Distinction in Teaching in the Clinical Sciences.
+
+
+####kaizang.html####
+Separator length: 2
+Score: 21.0
+I'm currently a Post-Doctoral Fellow worked with Professor Zhou Wang, in the  Department of Electrical and Computer Engneering, University of Waterloo. I got my Ph.D. degree in University of Waterloo, Ontario, Canada, and obtained both of my Master and Bachelor degree in Xidian University, Xi'An, Shannxi, China.
+
+
+####kori.html####
+Separator length: 1
+Score: 38.0
+I currentlymanage the neXus group at Microsoft Research. The Nexus group combines research in Social Computing, Computer Supported Collaborative Work, and Information Visualization to support rich collaboration across a variety of dimensions, including individual and community interactions, co-located and distributed collaboration; ambient and interactive visualization; and awareness displays. Prior to joining Microsoft Research I was a Professor of Computer Science at Dalhousie University (2001 - 2007) and Simon Fraser University (1998-2001). I received my PhD in Computer Science from the University of British Columbia in 1997.
+
+
+####lev.html####
+Separator length: 1
+Score: 34.0
+Brief bio: Lev Reyzin is an Assistant Professor in the MCS group at UIC's mathematics department. His research focuses on computational and statistical learning, but he is more broadly interested in topics ranging from practical issues in machine learning to the theoretical foundations of computerscience.Previously, Lev was a Simons Postdoctoral Fellow at Georgia Tech, and before that, an NSF CI-Fellow at Yahoo! Research, where he tackled problems in computational advertising.Lev received his Ph.D. from Yale under Dana Angluin and his undergraduate degree from Princeton.His work has earned awards at ICML, COLT, and AISTATS, as well as several national fellowships.
+
+
+####liangchen.html####
+Separator length: 1
+Score: 10.0
+Titan search engine consists of 15,968 Web services (STag 1.0 Dataset) crawled from the Internet. In Titan, we utilize both WSDL documents and tagging data ofWeb services to facilitate the process of Web service discovery.
+
+
+####linwu.html####
+Separator length: 3
+Score: 15.0
+I am currently a PhD student at CSE, UNSW, under the supervision of  Dr. John Shepherd. Meanwhile, I am serving as a joint research assistant at School of Computing and Mathematics, Charles Sturt University   (CSU), Australia.
+
+
+####liqing.html####
+Separator length: 6
+Score: 38.0
+His long term goal is to understand how    intelligent information is processed in the brain and develop new type    (brain-like) computational models and algorithms for visual and auditory    information processing.
+Currently, his research interests cover    brain-like computing model and its computing mechanism, visual information    representation and global feature analysis, brain signal processing and    brain-computer interface, perception and cognition computing model,    statistical learning and inference.    He has published more than 200 papers in international journals and    conferences.
+
+
+####machiel.z.lee.html####
+Separator length: 1
+Score: 24.0
+url(pics/me.png) no-repeat bottom right              I am a third year, PhD pre-candidate  in Computer Science at  The University of Texas at  Austin.  My adviser is  Professor Emmett  Witchel and I am working as part of the Operating  systems and Architecture group and  the Laboratory for  Advanced Systems Research.  I did my undergraduate work  at the University of Michigan:  Ann Arbor in Computer  Science  and Mathematics with a  minor  in Economics.
+
+
+####manlung.html####
+Separator length: 1
+Score: 36.0
+COMP327. Data Structures and Algorithms II: Fall 2013, Fall 2012, Fall 2011, Fall 2010.COMP328. Programming Languages: Theory and Applications: Spring 2013, Spring 2012, Spring 2011.COMP433. Information Retrieval: Summer 2013.COMP305P. Data Structures and Algorithms: Fall 2012, Spring 2012.COMP5151. Advanced Database Systems: Spring 2010.COMP306. Software Engineering and User Interfaces: Fall 2009.
+
+
+####mark.html####
+Separator length: 1
+Score: 42.0
+Mark Girolami will join the Department in January 2014 as a Professor of Statistics. He holds an honorary professorship in Computer Science at Warwick, is an EPSRC Established Career Fellow (2012 - 2017) and previously an EPSRC Advanced Research Fellow (2007 - 2012). He is also honorary Professor of Statistics at University College London, is the Director of the EPSRC funded Research Network on Computational Statistics and Machine Learning and in 2011 was elected to the Fellowship of the Royal Society of Edinburgh when he was also awarded a Royal Society Wolfson Research Merit Award.
+
+
+####matt.html####
+Separator length: 2
+Score: 10.0
+I am now working with  Prof. Song-Chun Zhu in the center for VCLA at UCLA.I received a Ph.D. in Statistics from UCLA in 2011 under the supervision of Prof. Song-Chun Zhu.
+
+
+####mehrdad.html####
+Separator length: 2
+Score: 31.0
+I am a PhD student currently finishing my last year at the department of Computer Science in the Michigan State University. I am very fortunate to have Prof. Rong Jin as my advisor. Before joining MSU at 2009, I spent two years as a Ph.D. student at Sharif University of Technology. I received my M.Sc in Computer Engineering department at Sharif University of Technology where my advisor was Prof. Mohammad Ghodsi, and my BS from Amirkabir University of Technology (Tehran Polytechnic).  More information can be found in my  Resume .
+
+
+####meihui.html####
+Separator length: 1
+Score: 17.0
+I obtained my B.E. in Computer Science from Harbin Institute of Technology, China. After that I was admitted to the PhD program at the National University of Singapore under supervision of Prof. Beng Chin OOI. I am currently working as a Research Assistant at NUS.
+
+
+####michael.html####
+Separator length: 1
+Score: 12.0
+I work on computational comparative genomics in the  lab of Manolis        Kellis. Specifically, I am developing statistical machinelearning methods for the analysis of protein-coding genes inalignments of multiple related genomes. The purpose of thesemethods is to use evolutionary signatures at the DNA sequencelevel to (1) validate and revise existing gene annotations;(2) identify novel genes and exons ab initio; and(3) discover unusual genic phenomena, such stop codonreadthrough, translational frame-shifting, polycistronicmRNAs, and synonymous sites under purifying selection.
+
+
+####michale.html####
+Separator length: 1
+Score: 63.0
+From August 2009 to August 2010 I worked as Research Staff Member at NEC Laboratories America (Systems Architecture Dept), in Princeton, NJ. I got my M.S. and Ph.D. degrees in Computer Engineering at Washington University in St. Louis (September 2004-April 2009). During my doctoral studies, I workedat Applied Research Lab under the supervision of Dr. Patrick Crowley. In the meanwhile, I spent summer 2006 at NEC Labs America, Princeton, NJ and summer 2007 at Intel Corporation, Hudson, MA. After my degree, I spent a few more months at Washington University.From December 2000 to September 2004 I worked at IBM Deutschland Research &amp; Development, Germany, within IBM eServer zSeries firmware group.  Previous to that, I got my Laurea Degree (cum laude) at Politecnico di Milano, Italy (October 2000).
+
+
+####mohanmed.html####
+Separator length: 2
+Score: 62.0
+Mohamed is a Readerat the School of Computing Science and Digital Media, Robert Gordon University. Mohamedreceived his PhD from Monash University, Australia. He then held appointments with the University of Sydney, CSIRO, and Monash University, all in Australia. Prior to joining Robert Gordon University, Mohamed worked for the University of Portsmouth in the UK as a Senior Lecturer. He has published over 100 papers, co-authored one monograph-style book, and edited/co-edited 5 books on data mining and knowledge discovery. Mohamed has served in the program committees of major conferences related to data mining, including ICDM, PAKDD, ECML/PKDD and ICML. He has also co-chaired over 10 workshops and special sessions on various data mining topics. Dr Gaber is recognised as a fellow of the British Higher Education Academy (HEA). He is also a member of the International Panel of Expert Advisers for the Australasian Data Mining Conferences. In 2007, he was awarded the CSIRO teamwork award.
+
+
+####molecular.html####
+Separator length: 1
+Score: 39.0
+I have served as deputy chairman of Lhasa Ltd., on the Science Advisory Board of a number of biotechnology companies and international academic advisory and grant awarding bodies (Netherlands Genomics Initiative, NIH Roadmap), on the editorial board of Journal of Chemical Information and Modelling and the Encyclopaedia of Computational Chemistry, a fellow of the Royal Society of Chemistry and a member of the publication board and chair of the IT committee, an honorary fellow of the American Association for Cancer Research and a Fellow of Clare College Cambridge. I have been a consultant to Pfizer, Teva, IDBS, Tripos, Unilever, AstraZeneca, Boehringer Ingelheim, Lhasa Ltd. Inpharmatica, Tripos, Pharmacia, Arrow Therapeutics. I have additionally received over &pound;10M in grants over the last ten years, from EPSRC, BBSRC, DTI, MRC and Pharmaceutical and software companies.
+
+
+####nianwen.html####
+Separator length: 1
+Score: 57.0
+Nianwen Xue is an Assistant Professor in the Computer Science Department  and the Language and Linguistics Program at Brandeis University. Dr. Xue directs  the Chinese Language Processing Group in the Computer Science Deparment. Before  joining Brandeis, Dr. Xue was a Research Assistant Professor in the  Department of Linguistics and the Center for Computational Language and  Education Research (CLEAR) at the University of Colorado at Boulder.  Prior to that, he was a postdoctoral fellow in the Institute for  Research in Cognitive Science and the Department of Computer and  Information Science at the University of Pennsylvania. He received his  PhD in Linguistics from University of Delaware. His research interests  include syntactic, semantic, temporal and discourse annotation,  semantic-role labeling and Machine Translation. In addition to building  syntactically and semantically annotated corpora, he has also published  work on Chinese word segmentation and semantic parsing using statistical  machine-learning techniques.
+
+
+####nikos.html####
+Separator length: 1
+Score: 24.0
+I received my diploma in Computer Engineering from the Computer Engineering and InformaticsDepartment, University of Patras, Greece, in 1995 and my PhD from the Computer Science Department, HKUST in 2000. Currently, I am aprofessor at the Department of ComputerScience, University of Hong Kong. Beforejoining HKU, I was a post-doctoral researcher at the Dutch national center forMathematics and Computer Science (CWI). During 2008-09, I was on sabbatical leave to the Max Planck Institute for Informatics.
+
+
+####olivia.html####
+Separator length: 1
+Score: 48.0
+The chemistry and pharmacological activity of plants used in Anglo-Saxon England included St John’s Wort, Yarrow and White Horehound, all currently sold as over the counter botanicals. St John’s Wort is also sold in standardised pharmaceutical formulations to treat mild depression and at high strength is a prescription only medicine (POM). This truly world-leading output rapidly cements the seminal review with laboratory data on the antimicrobial activity of three native plants commonly used for wound-healing in Medieval times. Several of the plant formulations reflecting those used in Anglo-Saxon England were as active as the antimicrobial drug chloramphenicol against common Gram positive wound pathogens Staphylococcus aureus and Bacillus subtilis. This multi-disciplinary approach involved linguists, ethnobotanists, medical historians, chemists, pharmacologists, pharmaceutical scientists and herbal practitioners. Using the bioinformatic technology developed by MRG, this paper has already had significant impact in shedding light via rigorous scientific data on the evidence based for medicine as far back as the so-called “Dark Ages”. The work has signalled a higher impact for medical historians’ outputs, created a new area of scientific research on Medieval Medicine and created notable research links with University of Cambridge, the International Society of Anglo-Saxonists (USA) and Kew Gardens.
+
+
+####pappas.html####
+Separator length: 1
+Score: 29.0
+Before joining IBM Research I was a graduate student at the Computer Science department of University of California, Los Angeles, where I received my Ph.D. and M.Sc. degrees in 2006 and 2003 respectively. I did my undergrad at the National Technical University of Athens where I received my B.Eng. degree in 2001 from the department of Electrical and Computer Engineering.
+
+
+####paulviola.html####
+Separator length: 1
+Score: 19.0
+United States Patent Application US20130024448 Filed July 21, 2011                                                           Inventors:                                       Paul Viola, Antoine Atallah, Ralf Herbrich, Bill Ramsey                                                                                                                                                                                                                                                                Document features or document ranking values can be associated with a distribution of values. Feature values, feature value coefficients, and/or document ranking values can be generated based on sampled values from the distribution of values. This can allow the relative ranking of a document to vary. As additional information is obtained regarding the document, leading to greater certainty about the appropriate ranking of the document, the width or variation generated by the distribution can be reduced to provide more stable ranking values.
+
+
+####petros.html####
+Separator length: 1
+Score: 18.0
+Predictive analytics for network management Wireless network systems and mobile computing platforms Autonomic managementIn 2009, I co-founded and served as General co-Chair of the InternationalConference on Mobile Computing, Applications and Services (MobiCASE 2009).
+
+
+####pinghua.html####
+Separator length: 1
+Score: 33.0
+I am currently apostdoctoral research associate in the Computer Science and EngineeringDepartment and the Centerfor Evolutionary Medicine and Informatics of The Biodesign Institute at Arizona State University. My cooperativesupervisor is Prof. Jieping Ye.Before joining ASU, I received my bachelor and Ph.D degrees from Xi'an Jiaotong University in 2008 and Department of Automation at Tsinghua University in 2013,respectively. My Ph.D supervisor is Prof. ChangshuiZhang. During 2011.11-2012.08 and 2013.02-2013.05, I was a visiting scholarin The Biodesign Institute at Arizona State University, where I worked with Prof. Jieping Ye.
+
+
+####ra.html####
+Separator length: 2
+Score: -1.0
+**Chunk PART: 0
+
+
+**Chunk PART: 1
+
+
+**Chunk PART: 2
+
+
+**Chunk PART: 3
+
+
+**Chunk PART: 4
+
+
+**Chunk PART: 5
+
 
 **Chunk PART: 6
 Rakesh Agrawal is a Microsoft Technical Fellow and heads the Search Labs in Microsoft Research. He i...
@@ -526,64 +758,70 @@ Separator length: 2
 Score: 28.0
 My research areas are data mining, health informatics and data bases. Asoutlined in the research project section ofthis site, I have been focusing on genomics data and text data over the pastten years. On the genomics side, with the PROOF Centre team, my work focuseson the development of biomarker panels for various conditions related to organfailures in hearts, lungs or kidneys. On the text side, my work with Giuseppe Carenini focuses onconversations, such as emails, blogs and meetings. The objective is to createmeta data, such as natural language summaries, to facitate access to theotherwise unstructured raw data.
 
+
 ####ruicai.html####
 Separator length: 2
 Score: 47.0
 Rui Cai - Microsoft Research                                                                                                        Our researchConnectionsCareersAbout us                            Microsoft Translator |                                                                                                                                     AllDownloadsEventsGroupsNewsPeopleProjectsPublicationsVideos                                                                Rui Cai                      Dr. Rui Cai is a Lead Researcher at Microsoft Research Asia. He received the B.E. and Ph.D. degrees in computer science from Tsinghua University, Beijing, China, in 2001 and 2006, respectively. His research interests include web search and data mining, machine learning, pattern recognition, computer vision, multimedia content analysis, and signal processing. He is a member of Association for Computing Machinery (ACM) and the Institute of Electrical and Electronics Engineers (IEEE).
+
 
 ####sham.html####
 Separator length: 1
 Score: 37.0
 I am a principal research scientist at Microsoft     Research, New England, a lab in Cambridge,     MA. Previously, I was an associate professor at the Department of     Statistics, Wharton, University of Pennsylvania (from     2010-2012), and I was an assistant professor at the  Toyota Technological Institute     at Chicago. Before this, I did a postdoc in the  Computer and Information     Science  department at the      University of Pennsylvania  under the supervision of  Michael Kearns.     I completed my PhD at the Gatsby Unit where my     advisor was  Peter     Dayan.  Before Gatsby, I was an undergraduate at Caltech where I did my BS in     physics.
 
+
 ####shamanth.html####
 Separator length: 1
-Score: 26.0
-08/29/2013: Preprint version of the book Twitter Data Analytics is now available for download.08/25/2013: I was awarded the Presidential Volunteer Service Award for volunteering at Humanity Road Inc.04/08/2013: Humanity Road Inc. published a report titled Analysis of Twitter Data During Hurricane Sandy using the data collected by TweetTracker. The report can be accessed at http://www.humanityroad.org/_blog/HR_Talk/post/SWBA03/20/2013: My paper Whom Should I Follow? Identifying Relevant Users During Crises to appear in ACM Hypertext 2013 is discussed in New Scientist Blog One Percent in the article How to find the right Twitter user in a crisis                                                                                                                                                     Copyright &amp; Trademark     Accessibility     Privacy     Emergency     Contact ASU
+Score: 20.0
+I am a Ph.D student at Arizona State University.I am a very laidback person who loves to travel and see new places. Dr. Huan Liuis my advisor and I enjoy working with him. My research interests include identifying and studying user behavioralpatterns in Social Media and building social media based tools for crowdsourcing and Humanitarian Assistance and Disaster Relief(HADR).
+
 
 ####shaogang.html####
 Separator length: 2
-Score: 32.0
-Activity Analysis Datasets:
-QMULJunction DatasetShoppingMail DatasetRoadTraffic DatasetsSportsNews DatasetRaw Data (1GB), ExtractedFeatures and Annotations (3MB) - (Ref:LearningTags from UnsegmentedVideos of Multiple Human Actions, IEEEInternational Conferenceon Data Mining, Vancouver, Canada, December 2011)Human RecognitionDatasets:
-QMUL Multiview Face DatasetUndergroundRe-Identification(GRID) Dataset
-QMULi-LIDSRe-IdentificationDataset - (Ref: AssociatingGroups of People, British Machine Vision Conference,London,September 2009)QMULi-LIDS Pedestrian Detection Dataset - (Ref: QuantifyingContextual Information for Object Detection, IEEEInternationalConference on Computer Vision, Kyoto,Japan, October 2009)QMULRe-IdentificationAttribute Labelling (for VIPeR, GRID and PRID datasets)Video Summerisation Datasets:
-TIme Square Intersection (TISI) DatasetEducationalResource Centre (ERCe) Dataset
+Score: 14.0
+Shaogang (Sean) Gong isProfessor ofVisual Computationat Queen Mary Universityof London.Gong established the QueenMary Computer Vision Laboratory in 1993 and haveenjoyed immensely working withPhD students and postdoctoral researchers.His work is in Computer Vision, with a focus on HumanIdenfitication, Behaviour Recognition, Video Content Analysis, andVisual Surveillance. Brief bioand publications pdfdownload (GoogleScholar).
+
 
 ####shree.html####
 Separator length: 1
 Score: 55.0
 Shree K. Nayar |  Home                                          Shree K. Nayar            T. C. Chang Professor, Computer Science, Columbia University                                              Home                 Research                   Projects                   Publications                   Team                  Databases                                                             Shree K. Nayar is the T.C. Chang Professor of Computer Science at Columbia University.                      He co-directs the Columbia Vision and Graphics Center and heads the Computer Vision Laboratory                      (CAVE),                      which is dedicated to the development of advanced computer vision systems. His research is focused on                      three broad areas, namely, the creation of novel vision sensors, the design of physics based models                      for vision, and the development of algorithms for scene interpretation. The work conducted by his                      research team is motivated by applications in the fields of digital imaging, computer graphics,                      human-machine interfaces and robotics.
 
+
 ####sourangshu.html####
 Separator length: 1
 Score: 16.0
 I am offering CS60050: Machine Learning course this semester.My research interests are Machine Learning and Optimization. Recently, I have developed interest in Machine Learning for Big Data / Distributed Machine Learning.
+
 
 ####steve.html####
 Separator length: 1
 Score: 16.0
 I'm a Postdoc in the Computer Vision Lab at Caltech, working with Pietro Perona.  I completed my Ph.D. in Computer Science in 2012 at UC San Diego under the supervision of Serge Belongie.  My research interests are in computer vision and machine learning.
 
+
 ####syu.html####
 Separator length: 1
 Score: 48.0
 Philip S. Yu's main research interests include data mining (especially on graph/network mining), social network, privacy preserving data publishing, data stream, database systems, and Internet applications and technologies. He is a Professor in the Department of Computer Science at UIC and also holds the Wexler Chair in Information and Technology. He spent most of his career at IBM Thomas J. Watson Research Center, where he was manager of the Software Tools and Techniques group.  Dr. Yu has published more than 650 papers in refereed journals and conferences. He holds or has applied for more than 300 US patents.
 
+
 ####terence.html####
 Separator length: 2
 Score: 67.0
-Greetings from NUS!
 I am an Associate Professor at theSchool of Computing,National University of Singapore. I teach an undergraduate course in digital special effects, as well as a graduate course in multimedia. For research, I work primarily in these areas: face recognition, biometrics, and computational photography. I'm also interested in computer vision problems in general, such as shape-from-shading, photometric stereo, object recognition. On the side, I dabble with some aspects of music processing, such as polyphonic music transcription.
 I serve as Vice-Chairman of theBiometrics Technical Committee (BTC), Singapore, and Chairman of the Cross-Jurisdictional and Societal Aspects Working Group (WG6) within the BTC. The interesting issues here are the legal and privacy aspects of using biometrics.
 I also serve as Vice-President of thePattern Recognition and Machine Intelligence Association(PREMIA), a national professional body for pattern recognition.
 I am the winner of the4th Temasek Young Investigator's Award in 2005. This $500K award is given by the Defence Science and Technology Agency for a 3-year project in Extreme Face Recognition.
 I am available as a Consultant for biometrics deployment: review of technology, assessment of vendor's proposal, education and training.
 
+
 ####tianming.html####
 Separator length: 1
 Score: 42.0
 Dr.     Tianming Liu is an Associate Professor of     Computer Science atUGA. Dr. Liu is also an affiliated faculty with     the UGA Bioimaging Research Center (BIRC), the UGA Institute of Bioinformatics (IOB         ), the UGA Biomedical and Health     Sciences Institute (BHSI),and the UGA Faculty of Engineering.     Before he moved to UGA, Dr. Liu was a faculty member of Weill Medical College of Cornell University     (Assistant Professor, 2007-2008) and Harvard Medical School (Instructor,     2005-2007). Dr. Liu was a postdoc in neuroimaging in the University of Pennsylvania (2002-2004) and     Harvard Medical School (2004-2005). Dr. Liu received PhD in computer     science from Shanghai Jiaotong     University   in 2002.
+
 
 ####timfinin.html####
 Separator length: 2
@@ -592,21 +830,21 @@ Tim Finin is a Professor of Computer Science and Electrical Engineering at the U
 Finin received an S.B. degree in Electrical Engineering from MIT and a Ph.D. degree in Computer Science from the University of Illinois at Urbana-Champaign. He has held full-time positions at UMBC, Unisys, the University of Pennsylvania, and the MIT AI Laboratory. He is the author of over 300 refereed publications and has received research grants and contracts from a variety of sources. He participated in the DARPA/NSF Knowledge Sharing Effort and helped lead the development of the KQML agent communication language and was a member of the W3C Web Ontology Working Group that standardized the OWL Semantic Web language.
 Finin has chaired of the UMBC Computer Science Department, served on the board of directors of the Computing Research Association, been a AAAI councilor, and chaired several major research conferences. He is currently an editor-in-chief of the Elsevier Journal of Web Semantics and a co-editor of the Viewpoints section of the Communications of the ACM.
 
+
 ####vidhya.html####
 Separator length: 2
 Score: -1.0
 **Chunk PART: 0
-Home Page of Vidhya Navalpakkam Home Page of Vidhya Navalpakkam
+
 
 **Chunk PART: 1
-Search this site
+
 
 **Chunk PART: 2
-homeCV
+
 
 **Chunk PART: 3
-homeCVSitemap
-home
+
 
 **Chunk PART: 4
 I am currently a Research Scientist at Google. My interests are in thinking beyond clicks -- Develop...
@@ -621,7 +859,7 @@ I am currently a Research Scientist at Google. My interests are in thinking beyo
 
 
 **Chunk PART: 8
-Sign in|Report Abuse|Print Page|Remove Access|Powered By Google Sites
+
 
 No bio found.
 
@@ -630,117 +868,96 @@ Separator length: 1
 Score: 101.0
 Xiaohui (Helen) Gu is an associate professor in the Department of Computer Science        at the North Carolina State          University. She received her PhD degree in 2004 and MS        degree in 2001 from the Department          of Computer Science, University          of Illinois at Urbana-Champaign. She received her BS        degree in computer science from Peking          University, Beijing,          China in        1999. She was a research staff member at IBM T.          J. Watson Research Center, Hawthorne,          New York, between 2004 and        2007. Dr. Gu received ILLIAC fellowship, David J. Kuck Best        Master Thesis Award, and Saburo Muroga Fellowship from University          of Illinois at        Urbana-Champaign. She also received the IBM          Invention Achievement Awards in 2004, 2006, and        2007. She has filed eight patents, and has published more        than 50 research papers in international journals and major        peer-reviewed conference proceedings. Dr. Gu is a recipient of        NSF Career Award, four IBM Faculty Awards 2008, 2009, 2010,        2011, and two Google Research Awards 2009, 2011, best paper        awards from ICDCS 2012, CNSM 2010, and NCSU Faculty Research and        Professional Development Award. She is a Senior Member of IEEE        and a member of ACM.
 
+
 ####xiaolin.html####
 Separator length: 2
-Score: 43.0
-Affiliated with
-Advanced Computing and Information Systems Laboratory (ACIS)  NSF Center for Cloud and Autonomic Computing (CAC)Department of Computer &amp; Information Science &amp;Engineering (CISE)Research
-PDS: Cloud Computing, High Performance Computing, Big Data, Software-Defined Networking, Software-Defined Ecosystems
-CPS: Cloud of CPS, Mobile Social Networks, Localization and LBS, Wireless Sensor Networks, FutureInternet
-S&amp;P: Network/SDN Security, Cloud Security, Mobile Privacy, Trust &amp;Reputation Management, Authentication  Enabling Applications in Science, Engineering, Healthcare, and Business Publications
-Projects
+Score: 90.0
+Area Chair, Computer Engineering Division, Department of Electrical and Computer Engineering, University of Florida.
+Chair, IEEE Gainesville Section.
+Associate Editor, Security andCommunication Networks(SCN),Wiley.Member of Executive Committee, IEEE Technical Committee onScalable Computing (TCSC).  Coordinator, Technical Area of BigData and MapReduce, TechnicalArea of Sensor Networks, IEEE TCSC.  Panelist, National ScienceFoundation (NSF), USA, 2006,2007, 2009, 2010, 2012,2014.  Program Chair, Steering Committee Chair, the International Workshop on Software-Defined Ecosystems (BigSystem 2014), Vancouver, Canada, June 23-27, 2014.
+Workshops Chair, The ACM Cloud and Autonomic Computing Conference (CAC 2013), Miami Beach, Florida, USA July 29-August 2, 2013.
+TPC Track Chair, Systems and Applications, the 9th IEEEInternational Conference on Mobile Ad hoc and Sensor Systems (MASS2012), Las Vegas, NV, USA, Oct. 8-11, 2012.  Program Vice Co-Chair, Emerging Software Techniques, The7th International Conference on Frontier of Computer Science andTechnology (FCST 2012), Suzhou, China, Nov. 21-23, 2012.
+Local Arrangement Co-Chair, The 31st Annual IEEEInternational Conference on Computer Communications (INFOCOM 2012),Orlando, FL, USA, Mar. 25-30, 2012.
+Program Vice Co-Chair, The 1st IEEE InternationalConference on Cloud and Service Computing (CSC 2011),Hong Kong, China, Dec. 12-14, 2011.
+
 
 ####xinggang.html####
 Separator length: 2
 Score: 40.0
-Short Bio
 Xinggang Wang is a Ph.D. candidate in Huazhong University of Science and Technology, supervised by Prof. Wenyu Liu.His research interests are computer vision and machine learning.
 He completed his B.E. with honors in Telecommunication Engineering in Huazhong University of Science and Technology. During his Ph.D. period, he visited UCLA and Temple University where he was supervised by Prof. Alan Yuille and Prof. Longin Latecki, respectively. He also worked in the visual computing group in Microsoft Research Asia as an intern, supervised by Prof. Zhuowen Tu and collaborated with Prof. Yi Ma.
+
 
 ####xinli.html####
 Separator length: 1
 Score: 9.0
 The goal of my future laboratory is to uncover the mechanisms that enable germ cells to pass on the genetic material, epigenetic information and cytoplasmic constituents through the generations. The mysteries of germ-line specific small silencing RNAs, piRNAs, continues to excite me. After identifying the first transcription factor that initiates piRNA precursor transcription, I propose to understand the structure of the precursor transcripts and its mode of post-transcriptional processing as my short-term career goal.
 
+
 ####yabo.html####
 Separator length: 4
-Score: 42.0
-Yabo (Arber) Xu , Ph.D
-
-Assistant Professor, School of Software, Sun Yat-sen Univesity
+Score: 37.0
 A SHORT BIO.Yabo Xu joined School of Software, Sun Yat-sen University through A Hundred Elites Program in 2009.He earned his Ph.D. in Computer Science, Simon Fraser University, Canada in 2008. During his Ph.D. study, he worked as anintern in Microsoft Research Asia in 2005, and paid a research visit to CUHK and Microsoft AdCenter Lab in 2007 and 2008, respectively.Prior to this, he received his master degree at CUHK (Chinese University of Hong Kong) in 2003 andBachelor of Science degree in Computer Science from Nanjing University, China in 2001.
+
 
 ####yanchao.html####
 Separator length: 2
 Score: 68.0
 His primary research interests are wireless networks, mobile &amp;      pervasive computing, and distributed systems, with current focus      on security and privacy issues in mobile sensing, social networks,      cognitive radio networks, mHealth systems, smart grids, and cloud      computing. He is an Editor of IEEE Transactions on Mobile      Computing, IEEE Transactions on Vehicular Technology, and IEEE      Wireless Communications. He was a Feature Editor of IEEE Wireless      Communications, a Guest Editor of IEEE Wireless Communications      Special Issue on Security and Privacy in Emerging Wireless      Networks in 2010, and a TPC Co-Chair of Communication and      Information System Security Symposium, IEEE GLOBECOM 2010. He      received the NSF CAREER Award in 2009 and is a senior member of      IEEE.
 
+
 ####yingcheng.html####
 Separator length: 1
 Score: 67.0
 Ying-Cheng Lai received B.S. and M.S. degrees in  Optical Engineering from Zhejiang University in 1982 and 1985, and M.S. and Ph.D.degrees in  Physics  from University of Maryland at College Park in1989 and 1992, respectively. He wrote his Ph.D. thesis on Classicaland Quantum Chaos under  Celso Grebogi, James A. Yorkeand Edward Ott.From 1992-1994 he was a post-doctoral fellow in the BiomedicalEngineering Department at the Johns Hopkins University School of Medicineunder  Raimond Winslow and  Murray Sachs. He joined the University of Kansas in 1994 as an Assistant Professorof Physics and Mathematics and became Associate Professor in 1998.In 1999, he came to Arizona State University as AssociateProfessor of Mathematics and Associate Professor of Electrical Engineering. He was promoted to Professor of Mathematics and Professor of Electrical Engineering in 2001.In 2005, he switched full-time into Electrical Engineering. In 2009, Y.-C. Lai was named the Sixth Century Chair in Electrical Engineering by the University of Aberdeen, Scotland, UK. In January 2014,he was awarded the ISS Chair Professorship of Electrical Engineering at Arizona State University.
 
+
 ####yuandong.html####
 Separator length: 2
-Score: 30.0
-I received Microsoft Research PhD Fellowship (2011-2013). Research Direction
+Score: 24.0
 In general, I am interested in computer vision and machine learning. In particular, I am working on modeling and understanding non-rigid image deformation and data-driven optimization. My approach can be used for dense image alignment, nonrigid object tracking, human pose estimation, distortion correction, etc. In addition, I am also working on data mining algorithms for crowdsourcing.
+
 
 ####yuanxue.html####
 Separator length: 1
-Score: 107.0
-Technical Program Committee IEEE Infocom, 2011, 2012, 2013 Cloud Computing track of the International Symposium on Stabilization, Safety, and Security of Distributed Systems, 2012 IEEE IPCCC 2010. IEEE ICNP 2010. IEEE Infocom, 2010. First ACM International Workshop on Medical-Grade Wireless Networks, 2009. IEEE Infocom, 2009. IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks, 2008 IEEE International Conference on Distributed Computing Systems (ICDCS), 2008 IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks, 2008 IEEE International Workshop on Wireless Mesh and Ad Hoc Networks (WiMAN), 2007 NSF International Workshop on Theoretical and Algorithmic Aspects of Sensor and Ad-hoc Networks (WTASA), 2007 IEEE Conference on Computer Communications (Infocom), 2007 IEEE International Conference on Communications (ICC), 2007 IEEE Globecom, 2007 International Workshop on “Wireless mesh: moving towards applications” (WiMeshNets), 2006 IEEE Globecom, 2006 International Conference on Quality of Service in Heterogeneous Wired/Wireless Networks (QShine), 2006 IEEE International Conference on Sensor Networks, Ubiquitous, and Trustworthy Computing, 2006Contact
+Score: 44.0
+My research area includes networking and distributed systems with a focus on resource management, performance optimization, reliability and dependability assurance, security and privacy protection for wireless networks, large-scale data processing systems, and web-based applications. A primary application domain of my research is to facilitate better health care, including system and data engineering that support biomedical data analysis, protection of patient portal and electronic medical record systems, privacy-preserving integration of medical records from multiple sources, and remote patient monitoring using wireless sensor technologies.
+
 
 ####yunji.html####
 Separator length: 2
 Score: 39.0
 About me:  Yunji Chen was born in Nanchang, China, in 1983. Currently, he is a full professor at Institute of Computing Technology, Chinese Academy of Sciences. Currently, he leads the NOVEL group to build non-traditional computer, especially neural network computer. Before that, he participated in the Godson/Loongson project for more than ten years, and was a chief architect of Godson-3 microprocessor. Yunji Chen has authored or coauthored 1 book and over 50 papers on various conferences (including ISCA, HPCA, ASPLOS, ISSCC, Hot Chips, IJCAI, FPGA, and SPAA) and jounals (including IEEE JSSC, IEEE TC, IEEE TPDS, IEEE TIP, IEEE TCAD, ACM TIST, ACM TACO, and IEEE Micro).
 
+
 ####zhangye.html####
 Separator length: 1
 Score: 46.0
 In July, 2011, I received my PhD degree in Computer Science and Software at Dalian University of Technology, China, with Prof. Hongfei Lin. During my PhD program, I was awarded a China Government Scholarship to support me studying in Canada for 2 years and 3 months. I was actively involved in TREC evaluation and other academic activities. With our own in-house information retrieval platform, we have achieved the best performance in several information retrieval tasks in TREC evaluation conference, such as Relevance Feedback Track 2009 and Chemical Track 2009. I have also published a number of papers in prestigious conferences and journals such as ACM CIKM, SIGIR and JASIST. For more information, please refer to my CV.
+
 
 ####zhengkai.html####
 Separator length: 1
 Score: 19.0
 Apple Inc.'s Back To My Mac (BTMM) service provides a nice mobility awarehome networking solution not by proposing a bunch of new protocols, but byputting together a set of existing protocols and software tools. Users getconnectivity to the machines at home regardless of whether they are on moveor behind a NAT. We present the design of BTMM and propose extensions tomake it a potential solution for general home networking problem.
 
+
 ####zhou.html####
 Separator length: 1
 Score: 90.0
 ProfileInvited TalksPatentsStudentsHonors/AwardsTeachingDr. Zhou is currently a Research Staff Scientist and Manager of Soft Matter Theory and Simulation, at IBM Research, as well as an Adjunct Professor at Department of Chemistry, Columbia University. He received his Ph.D. in Chemistry from Columbia University (with Prof. Bruce Berne) in 1997. His current research interests include development of novel algorithms for computational biology and bioinformatics, protein folding dynamics, protein-protein interaction, confined water and hydrophobicity, as well as protein-nanoparticle interactions (nanotoxicity/nanomedicine). He has published 140+ peer-reviewed papers and 20 patents, and delivered 150+ invited talks worldwide. He was part of the IBM Blue Gene team which won the 2009 National Medal on Technology. He also won the IBM Outstanding Technical Achievement Award (OTAA), the highest IBM technical award, in 2005, 2008 and 2012, and the DEC Award from American Chemical Society (ACS). He serves as Editor-in-Chief of Current Physical Chemistry, Editor of (Nature) Scientific Reports, Guest Editor for Nanoscale (2011), and Editorial Board Member of 5 other international journals. He sits on the Board of Directors of Telluride Science and Research Center (TSRC), and the Scientific Advisory Board of Center for Multiscale Theory and Simulation, University of Chicago. He was elected to AAAS Fellow and APS Fellow in 2011.
 
+
 ####zzs.html####
 Separator length: 2
-Score: 159.0
-1964-1968 Graduate student in the Graduate School of Chinese Academy of Sciences,
-Major Area: Computer Science and Technology
-1959-1964 Undergraduate student in Computer from the University of Science and
-Technology of China (USTC), Beijing
-��
-Experience:
-��
-2003- Director of Intelligence Lab, Institute of Computing Technology, CAS
-2000-2003 Executive Director of Intelligent Information Processing, CAS
-1994-2000 Director, Dept. of Computer Science, Graduate School (Beijing), USTC
-1993-1998 Director, Intelligent Computer Science Open Laboratory, Institute of
-Computing Technology, CAS
-1990-1993 Professor, National Research Center for Intelligent Computing Systems, bsp;
-in charge of projects for intelligent environment, machine
-learning, neural computing, advanced database technology, intelligent
-decision systems
-1989-1990 Visiting Professor, research and education on AI and Neural Computing
-at Erasmus University Rotterdam, Netherlands, and
+Score: 17.0
 Trondheim University, Norway.
-1986-1990 Associate Professor, Vice Director of the Department V, Institute of
-Computing Technology, Chinese Academy of Sciences, in charge of
-projects for artificial intelligence, knowledge engineering, intelligent
-decision system, database systems
-1983-1986 Vice Director of the Department V, Institute of Computing Technology,
-Chinese Academy of Sciences, in charge of projects for knowledge
 engineering, intelligence computer, database system.
-1982-1983 Visiting Scholar, work by Prof. S. Bing Yao, College of Business and
-Management, University of Maryland, College Park, in charge of project
 for developing XDB DBMS, Form System.
-1980-1982 Visiting Scholar, Department of Computer and Information Science,
-The Ohio State University, Columbus, for developing of extensible
 database management systems using multiple minicomputers.
 Professor David K. Hsiao is the principle investigator of this project.
-1968-1980 Vice Director of the Department V, Leader of research group, Institute of
-Computing Technology, Chinese Academy of Sciences, in charge of
-research on information storage, automatic test systems,
 database machines.
+
 
 
 Process finished with exit code 0

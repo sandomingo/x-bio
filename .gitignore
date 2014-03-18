@@ -4,3 +4,7 @@ target/*
 *.iml
 .idea/*
 homepage/*
+html-bio/*
+logs/*
+.DS_Store
+result/*.txt
