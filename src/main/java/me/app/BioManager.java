@@ -68,7 +68,7 @@ public class BioManager {
         for (String word : bioInWords) {
             word = word.trim();
             // remove alphabet
-            if (word.length() < 2)
+            if (word.length() < 2 || HtmlUtils.isStopword(word))
                 continue;
             // remove numbers
             try {
@@ -165,7 +165,6 @@ public class BioManager {
     public static void main(String[] args) {
         String biofile = "artnetminer/arnetminer.txt";
         BioManager bioManager = new BioManager(biofile);
-        bioManager.readBioDB2List();
-        bioManager.saveBioKeywords("biokw.txt");
+        bioManager.saveBioKeywords("biokwWithoutStopwords.txt");
     }
 }

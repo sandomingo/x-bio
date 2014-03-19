@@ -25,7 +25,8 @@ import java.util.regex.Pattern;
  */
 public class HtmlUtils {
     private static final String stopwordsFile = "src/main/resources/stopwords.txt";
-    private static final String biokeywordsFile = "src/main/resources/biokw.txt";
+    private static final String biokeywordsFile = "src/main/resources/biokwWithoutStopwords.txt";
+//    private static final String biokeywordsFile = "src/main/resources/biokw.txt";
     private static Set<String> stopwords;
     private static Set<String> biokeywords;
     static {

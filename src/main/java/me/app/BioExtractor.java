@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class BioExtractor {
     public static final int BIO_LENGTH_MIN = 30;
     public static final int BIO_LENGTH_MAX = 3000;
-    private static final float SCORE = 6;
+    private static final float SCORE = 1;
     public static final String NO_BIO_FOUND = "No bio found.";
 
     /**

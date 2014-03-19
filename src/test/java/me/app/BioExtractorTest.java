@@ -17,8 +17,9 @@ import java.io.IOException;
 public class BioExtractorTest {
     @Test
     public void testExtracts() throws Exception {
-//        String html = "html-bio/benliang.html";
+//        String html = "html-bio/haifeng.html";
         String html = "html-bio/";
+//        String html = "html-nbio/";
         File dir = new File(html);
         File[] files;
         if (!dir.isDirectory()) {
