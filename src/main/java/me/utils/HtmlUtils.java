@@ -111,9 +111,10 @@ public class HtmlUtils {
         int len = tokens.size();
         for (int i = 0; i < len; i++) {
             String token = tokens.get(i);
-            if (token.length() > 5 && (token.endsWith(",") || token.endsWith("."))) {
-                tokens.set(i, token.substring(0, token.length() - 1));
+            while (token.endsWith(",") || token.endsWith(".")) {
+                token = token.substring(0, token.length()-1);
             }
+            tokens.set(i, token);
         }
         return tokens;
     }

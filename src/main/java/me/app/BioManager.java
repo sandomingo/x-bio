@@ -24,10 +24,9 @@ import java.util.*;
 public class BioManager {
     private List<String> bios;
     public static final int TOP_N = 1000;
-    private Map<String, Integer> keywordsMap; // keyword : occur number
-
+    private List<String> wordlst;
     public BioManager(String biofile) {
-        keywordsMap = new HashMap<String, Integer>();
+        wordlst = new ArrayList<String>();
         loadBios(biofile);
         selectKws(TOP_N);
     }
@@ -37,7 +36,6 @@ public class BioManager {
      */
     private void selectKws(int topN) {
         Map<String, Integer> wordsMap = new TreeMap<String, Integer>();
-        List<Integer> occurrence = new LinkedList<Integer>();
         for (String bio : bios) {
             List<String> bioInWords = HtmlUtils.token(bio);
             bioInWords = removeStopWords(bioInWords);
@@ -48,32 +46,36 @@ public class BioManager {
                     wordsMap.put(word, 1);
             }
         }
-        for (Integer num : wordsMap.values()) {
-            occurrence.add(num);
-        }
-        Collections.sort(occurrence);
-        int target = 0;
-        int counter = 0;
-        for (int i = occurrence.size() - 1; i >= 0; i--) {
-             counter++;
-            if (counter == topN) {
-                target = occurrence.get(i);
-            }
-        }
-        for (Map.Entry<String, Integer> entry : wordsMap.entrySet()) {
-            if (entry.getValue() >= target) {
-                keywordsMap.put(entry.getKey(), entry.getValue());
-            }
+
+        // sort by value DESC
+        ArrayList<Map.Entry<String, Integer>> weightslst = new ArrayList<Map.Entry<String, Integer>>(wordsMap.entrySet());
+        Collections.sort(weightslst,
+                new Comparator<Map.Entry<String, Integer>>() {
+                    @Override
+                    public int compare(Map.Entry<String, Integer> o1,
+                                       Map.Entry<String, Integer> o2) {
+
+                        return o2.getValue() - o1.getValue();
+                    }
+                });
+        for (int i = 0; i < weightslst.size() && i < topN; i++) {
+            wordlst.add(weightslst.get(i).getKey());
         }
     }
 
     private List<String> removeStopWords(List<String> bioInWords) {
         List<String> biowords = new ArrayList<String>();
         for (String word : bioInWords) {
-            if (word.length() < 2 || HtmlUtils.isStopword(word)) {
+            word = word.trim();
+            // remove alphabet
+            if (word.length() < 2)
                 continue;
+            // remove numbers
+            try {
+                Integer.parseInt(word);
+            } catch (Exception e) {
+                biowords.add(word);
             }
-            biowords.add(word);
         }
         return biowords;
     }
@@ -98,6 +100,18 @@ public class BioManager {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for (String str : bios) {
+            int len = str.length();
+            if (len > max) {
+                max = len;
+            }
+            if (len < min) {
+                min = len;
+            }
+        }
+        System.out.println("Bio max length: " + max + "\t min length: " + min);
         return bios;
     }
     /**
@@ -135,27 +149,14 @@ public class BioManager {
     }
 
     /**
-     * 从个人简介中根据出现频率挑选关键词，
-     * 其中关键词不包括stop word
-     */
-    public List<String> getKeyWords() {
-        List<String> kws = new ArrayList<String>();
-        for (Map.Entry<String, Integer> entry : keywordsMap.entrySet()) {
-            kws.add(entry.getKey());
-        }
-        return kws;
-    }
-
-
-
-    /**
      * 持久话到文本
      * @param outfile
      */
     public void saveBioKeywords(String outfile) {
-        List<String> kws = getKeyWords();
+//        List<String> kws = getKeyWords();
         try {
-            FileHandler.writeListToFile(kws, outfile);
+//            FileHandler.writeListToFile(kws, outfile);
+            FileHandler.writeListToFile(wordlst, outfile);
         } catch (IOException e) {
             e.printStackTrace();
         }

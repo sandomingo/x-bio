@@ -3,6 +3,8 @@ package me.app;
 import me.utils.HtmlUtils;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * User: SanDomingo
@@ -11,7 +13,8 @@ import java.util.*;
  */
 public class BioExtractor {
     public static final int BIO_LENGTH_MIN = 30;
-    public static final int BIO_LENGTH_MAX = 300;
+    public static final int BIO_LENGTH_MAX = 3000;
+    private static final float SCORE = 6;
     public static final String NO_BIO_FOUND = "No bio found.";
 
     /**
@@ -23,8 +26,8 @@ public class BioExtractor {
         String text = HtmlUtils.getText(html);
         String[] chunks = sliceText(text);
         String bio = selectBio(chunks);
-        if (bio.equals(NO_BIO_FOUND))
-            printChunks(chunks);
+//        if (bio.equals(NO_BIO_FOUND))
+//            printChunks(chunks);
         return bio;
     }
 
@@ -49,7 +52,7 @@ public class BioExtractor {
      * @return
      */
     private String selectBio(String[] chunks) {
-        Map<Integer, List<String>> refinedchunkMap = new LinkedHashMap<Integer, List<String>>(); // key:chunk id, value: chunk tokens
+        Map<Integer, List<String>> refinedchunkMap = new TreeMap<Integer, List<String>>(); // key:chunk id, value: chunk tokens
         int len = chunks.length;
         for (int i = 0; i < len; i++) {
             // 取出不是已句号结尾的段落。从而获得完整的句子。
@@ -70,23 +73,26 @@ public class BioExtractor {
             refinedchunkMap.put(i, words);
         }
 
-        int targetIndex = -1;
-        double maxScore = -1;
+        StringBuilder bioBuilder = new StringBuilder();
         for (Map.Entry<Integer, List<String>> entry : refinedchunkMap.entrySet()) {
             double score = 0;
-            for (String str : entry.getValue()) {
-                if (HtmlUtils.isBiokeyword(str)) score+=1;
+            for (String word : entry.getValue()) {
+                if (HtmlUtils.isBiokeyword(word)) score+=1;
             }
-//            score = score * 10.0 / entry.getValue().size();
-            if (score > maxScore) {
-                maxScore = score;
-                targetIndex = entry.getKey();
+            score = score * 10.0 / entry.getValue().size();
+            if (score > SCORE) {
+                System.out.println("Chunk id: " + entry.getKey() + " Score: " + score);
+                bioBuilder.append(chunks[entry.getKey()] + "\n");
             }
         }
-        System.out.println("Score: " + maxScore);
-        if (maxScore<0)
+        String bioStr = bioBuilder.toString();
+
+        // TODO remove extra space
+
+        if (bioStr.trim().isEmpty())
             return NO_BIO_FOUND;
-        return chunks[targetIndex];
+        else
+            return bioStr;
     }
 
     /**
@@ -134,6 +140,8 @@ public class BioExtractor {
     private void printChunks(String[] chunks) {
         int digestLen = BIO_LENGTH_MAX;
         for (int i = 0; i < chunks.length; i++) {
+            if (chunks[i].trim().isEmpty())
+                continue;
             System.out.println("**Chunk PART: " + i);
             String digest = chunks[i];
             if (digest.length() > digestLen)
