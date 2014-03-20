@@ -25,17 +25,31 @@ import java.util.regex.Pattern;
  */
 public class HtmlUtils {
     private static final String stopwordsFile = "src/main/resources/stopwords.txt";
-    private static final String biokeywordsFile = "src/main/resources/biokwWithoutStopwords.txt";
-//    private static final String biokeywordsFile = "src/main/resources/biokw.txt";
+    private static final String biokeywordsFile = "src/main/resources/biowords.txt";
+    private static final String fieldwordsFile = "src/main/resources/fieldwords.txt";
+    private static Set<String> fieldwords;
     private static Set<String> stopwords;
     private static Set<String> biokeywords;
     static {
         loadStopwords();
+        loadFieldwords();
         loadBioktopwords();
         if (stopwords.isEmpty())
             System.err.println("load stopwords failed");
         if (biokeywords.isEmpty()) {
             System.err.println("load bio keywords failed");
+        }
+    }
+
+    private static void loadFieldwords() {
+        try {
+            List<String> strlst = FileHandler.readFileToList(fieldwordsFile);
+            fieldwords = new HashSet<String>();
+            for (String str : strlst) {
+                fieldwords.add(str);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -49,7 +63,6 @@ public class HtmlUtils {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     private static void loadBioktopwords() {
@@ -57,11 +70,16 @@ public class HtmlUtils {
             List<String> strlst = FileHandler.readFileToList(biokeywordsFile);
             biokeywords = new HashSet<String>();
             for (String str : strlst) {
-                biokeywords.add(str);
+                if (!isFieldword(str))
+                    biokeywords.add(str);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    private static boolean isFieldword(String word) {
+        return fieldwords.contains(word);
     }
 
     public static boolean isStopword(String word) {

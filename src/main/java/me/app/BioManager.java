@@ -165,6 +165,6 @@ public class BioManager {
     public static void main(String[] args) {
         String biofile = "artnetminer/arnetminer.txt";
         BioManager bioManager = new BioManager(biofile);
-        bioManager.saveBioKeywords("biokwWithoutStopwords.txt");
+        bioManager.saveBioKeywords("biowords.txt");
     }
 }
