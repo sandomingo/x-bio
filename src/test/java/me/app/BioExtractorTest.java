@@ -17,7 +17,7 @@ import java.io.IOException;
 public class BioExtractorTest {
     @Test
     public void testExtracts() throws Exception {
-//        String html = "html-bio/haifeng.html";
+//        String html = "html-bio/binbin.html";
         String html = "html-bio/";
 //        String html = "html-nbio/";
         File dir = new File(html);
@@ -46,7 +46,7 @@ public class BioExtractorTest {
 
     @Test
     public void testSliceText() throws IOException {
-        String htmlFilename = "html-bio/syu.html";
+        String htmlFilename = "html-bio/binbin.html";
         String html = FileHandler.readFileToString(htmlFilename);
         BioExtractor extractor = new BioExtractor();
         String text = HtmlUtils.getText(html);

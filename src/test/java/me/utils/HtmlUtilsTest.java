@@ -1,5 +1,7 @@
 package me.utils;
 
+import me.app.BioManager;
+import me.app.EduExtractor;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -28,7 +30,7 @@ public class HtmlUtilsTest {
 
     @Test
     public void testToken() throws Exception {
-        String bio = "Heikki Mannila received his Ph.D. in computer science in 1985 from the University of Helsinki. After some time at the University of Tampere and various researcher positions, in 1989 he was appointed a professor of computer science at the University of Helsinki. He was a visiting professor in the Technical University of Vienna in 1993 and a visiting researcher at Max Planck Institute for Computer Science in Saarbruecken in 1995-96. He moved to Microsoft Research in Redmond in 1998, came back to Finland to Nokia Research in 1999, where he stayed until the end of 2001. After that, Heikki Mannila was the research director of the basic research unit of Helsinki Institute for Information Technology in 2002-2004. Since 1999 he is a professor of computer science at Helsinki University of Technology. In 2004-2008 he was an academy professor. In 2009 he was the director of Helsinki Institute for Information Technology HIIT, a joint research institute of University of Helsinki and Helsinki University of Technology. In 2009-2012 he was vice president for academic affairs at Aalto University, a new university formed by the merger of Helsinki University of Technology, Helsinki School of Economics, and University of Art and Design Helsinki. Currently, he is president of the Academy of Finland.\n";
+        String bio = "I amcurrently a Postdoctral ResearchAssociate of theCenterfor Evolutionary Medicine and Informatics (CEMI) of theBiodesign Institute at ASU. My cooperative supervisor is Prof. JiepingYe. Before joining ASU in March 2013, I received the B.S.degree in mathematics and the Ph.D. degree in computer science fromZhejiang University, Hangzhou, China, in 2007 and 2012, respectively.";
         List<String> lst = HtmlUtils.token(bio);
         TestUtils.printStringList(lst);
     }
@@ -40,7 +42,38 @@ public class HtmlUtilsTest {
         String text = HtmlUtils.getText(html);
         List<String> lst = new ArrayList<String>();
         lst.add(text);
-        FileHandler.writeListToFile(lst, "out.txt");
+//        FileHandler.writeListToFile(lst, "out.txt");
         System.out.println(text);
+    }
+
+    @Test
+    public void testSplitTxt() {
+        List<String> bios = BioManager.readBiofile2List("artnetminer/bio.txt");
+        for (String bio : bios) {
+            List<String> sentences = HtmlUtils.splitTxt(bio);
+            System.out.println("####");
+            printList(sentences);
+            System.out.println("####");
+        }
+
+    }
+    @Test
+    public void testSplitTxt2() {
+        String bio = "A SHORT BIO.  Yabo Xu joined School of Software, Sun Yat-sen University through \"A Hundred Elites Program\" in 2009.  He earned his Ph.D. in Computer Science, Simon Fraser University, Canada in 2008. During his Ph.D. study, he worked as an  intern in Microsoft Research Asia in 2005, and paid a research visit to CUHK and Microsoft AdCenter Lab in 2007 and 2008, respectively.  Prior to this, he received his master degree at CUHK (Chinese University of Hong Kong) in 2003 and  Bachelor of Science degree in Computer Science from Nanjing University, China in 2001.";
+        List<String> sentences = HtmlUtils.splitTxt(bio);
+        System.out.println("####");
+        printList(sentences);
+        System.out.println("####");
+    }
+
+    @Test
+    public void testRemoveExtraSpace() {
+        String txt = "Automatic extraction and representation of visual concepts and           semantic information in scene is a desired capability in any security           and surveillance operations. In this project we target the problem of           visual event recognition in network information environment, where           faulty sensors, lack of effective visual processing tools and           incomplete domain knowledge frequently cause uncertainty in the data           set and consequently, in the visual primitives extracted from it. We           adopt Markov Logic Network (MLN), that combines probabilistic           graphical models and first order logic, to address the task of           reasoning under uncertainty. MLN is a knowledge representation           language that combines domain knowledge, visual concepts and           experience to infer simple and complex real-world events. MLN           generalizes over the existing state-of-the-art probabilistic models,           including hidden Markov models, Bayesian networks, and stochastic           grammars. Moreover, the framework can be made scalable to support           variety of entities, activities and interactions that are typically           observed in the real world.";
+        System.out.println(HtmlUtils.removeExtraSpace(txt));
+    }
+    private void printList(List<String> sentences) {
+        for (String sent : sentences) {
+            System.out.println("==>>" + sent);
+        }
     }
 }

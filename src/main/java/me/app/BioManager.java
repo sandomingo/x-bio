@@ -90,7 +90,7 @@ public class BioManager {
         this.bios = biolst;
     }
 
-    private List<String> readBioDB2List() {
+    public static List<String> readBioDB2List() {
         List<String> bios = new ArrayList<String>();
         String url = "jdbc:mysql://localhost/db_yeezhao_hound|hound|123456";
         BaseDao dao = BaseDaoFactory.getDaoBaseInstance(url);
@@ -103,7 +103,7 @@ public class BioManager {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
         for (String str : bios) {
-            int len = str.length();
+            int len = HtmlUtils.token(str).size();
             if (len > max) {
                 max = len;
             }
@@ -119,7 +119,7 @@ public class BioManager {
      * @param biofile
      * @return
      */
-    private List<String> readBiofile2List(String biofile) {
+    public static List<String> readBiofile2List(String biofile) {
         List<String> bios = new ArrayList<String>();
         List<String> lines = null;
         try {
@@ -127,8 +127,11 @@ public class BioManager {
             StringBuilder sb = new StringBuilder();
             for (String str : lines) {
                 str = str.trim();
-                // skip a comment or an empty line
-                if (str.startsWith("#") || str.isEmpty()) {
+                // skip empty line
+                if (str.isEmpty())
+                    continue;
+                // a comment separate two bios
+                if (str.startsWith("#")) {
                     String abio = sb.toString();
                     if (!abio.isEmpty()) {
                         bios.add(abio);
@@ -145,6 +148,7 @@ public class BioManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("Total bios: " + bios.size());
         return bios;
     }
 

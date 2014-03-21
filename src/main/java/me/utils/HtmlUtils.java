@@ -1,18 +1,16 @@
 package me.utils;
 
+import opennlp.tools.sentdetect.SentenceDetectorME;
+import opennlp.tools.sentdetect.SentenceModel;
+import opennlp.tools.util.InvalidFormatException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.safety.Whitelist;
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;
 
-import java.io.IOException;
-import java.io.Reader;
-import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,17 +25,41 @@ public class HtmlUtils {
     private static final String stopwordsFile = "src/main/resources/stopwords.txt";
     private static final String biokeywordsFile = "src/main/resources/biowords.txt";
     private static final String fieldwordsFile = "src/main/resources/fieldwords.txt";
+    private static final String degreewordsFile = "src/main/resources/degree.txt";
     private static Set<String> fieldwords;
     private static Set<String> stopwords;
     private static Set<String> biokeywords;
+    private static Set<String> degreewords;
+    private static SentenceDetectorME sdeector;
     static {
         loadStopwords();
         loadFieldwords();
         loadBioktopwords();
+        loadDegreewords();
         if (stopwords.isEmpty())
             System.err.println("load stopwords failed");
         if (biokeywords.isEmpty()) {
             System.err.println("load bio keywords failed");
+        }
+
+        try {
+            InputStream is = new FileInputStream("src/main/resources/en-sent.bin");
+            SentenceModel model = new SentenceModel(is);
+            sdeector = new SentenceDetectorME(model);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void loadDegreewords() {
+        try {
+            List<String> strlst = FileHandler.readFileToList(degreewordsFile);
+            degreewords = new HashSet<String>();
+            for (String str : strlst) {
+                degreewords.add(str);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -90,6 +112,9 @@ public class HtmlUtils {
         return biokeywords.contains(word);
     }
 
+    public static boolean isDegreeword(String word) {
+        return degreewords.contains(word);
+    }
     /**
      * 抽取html中包含的全部文本
      * @param html
@@ -97,7 +122,8 @@ public class HtmlUtils {
      */
     public static String getText(String html) {
         String text = cleanPreserveLineBreaks(html);
-        text = text.replaceAll("&nbsp;", "").replace("&quot;", "").replace("\t", "");
+        text = text.replace("&nbsp;", " ").replace("&amp;", "&").replace("&quot;", "\"").
+                replace("&lt;", "<").replace("&gt;", ">").replace("\t", " ");
         text = text.replaceAll("[ ]*\n[ ]*", "\n");
         return text;
     }
@@ -112,12 +138,26 @@ public class HtmlUtils {
         document.outputSettings(new Document.OutputSettings().prettyPrint(false));//makes html() preserve line breaks and spacing
         String[] sepTags = new String[]{"br", "p", "hr", "table", "td", "tr", "h1", "h2", "h3", "h4"};
         for (String tag : sepTags) {
-//            document.select(tag).append("\\n");
-            document.select(tag).append("\n");
+            document.select(tag).append("\\n");
+//            document.select(tag).append("\n");
         }
-//        String s = document.html().replaceAll("\\\\n", "\n");
-        String s = document.html();
+        String s = document.html().replaceAll("\\\\n", "\n");
+//        String s = document.html();
         return Jsoup.clean(s, "", Whitelist.none(), new Document.OutputSettings().prettyPrint(false));
+    }
+
+    public static String removeExtraSpace(String sent) {
+        return sent.replaceAll(" +", " ");
+    }
+
+    /**
+     * 段落文本断句
+     * @param txt
+     * @return
+     */
+    public static List<String> splitTxt(String txt) {
+        String sentence[] = sdeector.sentDetect(txt);
+        return Arrays.asList(sentence);
     }
 
     /**

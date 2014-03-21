@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  */
 public class BioExtractor {
     public static final int BIO_LENGTH_MIN = 30;
-    public static final int BIO_LENGTH_MAX = 3000;
+    public static final int BIO_LENGTH_MAX = 800;
     private static final float SCORE = 2;
     public static final String NO_BIO_FOUND = "No bio found.";
 
@@ -26,9 +26,24 @@ public class BioExtractor {
         String text = HtmlUtils.getText(html);
         String[] chunks = sliceText(text);
         String bio = selectBio(chunks);
-//        if (bio.equals(NO_BIO_FOUND))
-//            printChunks(chunks);
-        return bio;
+
+        // add word separator for the case: fromZhejiang Univeristy, MicrosoftResearch
+        StringBuilder sb = new StringBuilder();
+        bio = bio.replace("PhD", "Ph.D");
+        char[] cc = bio.toCharArray();
+        int len = cc.length;
+        if (len > 0) {
+            sb.append(cc[0]);
+        }
+        for (int i = 1; i < len; i++) {
+            // add space between two stick words
+            if (cc[i - 1] - 'a' >= 0 && cc[i - 1] - 'z' <= 0 &&
+                    cc[i] - 'A' >= 0 && cc[i] - 'Z' <= 0) {
+                sb.append(" ");
+            }
+            sb.append(cc[i]);
+        }
+        return sb.toString();
     }
 
     /**
@@ -81,14 +96,14 @@ public class BioExtractor {
             }
             score = score * 10.0 / entry.getValue().size();
             if (score > SCORE) {
-                System.out.println("Chunk id: " + entry.getKey() + " Score: " + score);
+//                System.out.println("Chunk id: " + entry.getKey() + " Score: " + score);
                 bioBuilder.append(chunks[entry.getKey()] + "\n");
             }
         }
         String bioStr = bioBuilder.toString();
 
         // TODO remove extra space
-
+        bioStr = HtmlUtils.removeExtraSpace(bioStr);
         if (bioStr.trim().isEmpty())
             return NO_BIO_FOUND;
         else
@@ -132,7 +147,7 @@ public class BioExtractor {
             sb.append("\n");
         }
         String sep = sb.toString();
-        System.out.println("Separator length: " + sep.length());
+//        System.out.println("Separator length: " + sep.length());
         return sep;
     }
 

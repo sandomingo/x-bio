@@ -1,0 +1,9 @@
+ph.d
+phd
+m.s
+m.sc
+m.tech
+m.e
+b.s
+b.sc
+b.tech
