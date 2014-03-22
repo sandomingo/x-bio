@@ -36,6 +36,7 @@ public class EduExtractorTest {
     @Test
     public void testExtractFromHtml() throws Exception {
         String html = "html-bio/";
+//        String html = "html-bio/emilio.html";
 //        String html = "html-nbio/";
         File dir = new File(html);
         File[] files;

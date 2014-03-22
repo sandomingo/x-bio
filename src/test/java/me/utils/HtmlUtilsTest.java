@@ -37,7 +37,7 @@ public class HtmlUtilsTest {
 
     @Test
     public void testGetText() throws Exception {
-        String filename = "html-bio/yabo.html";
+        String filename = "html-bio/atul.html";
         String html = FileHandler.readFileToString(filename);
         String text = HtmlUtils.getText(html);
         List<String> lst = new ArrayList<String>();
@@ -59,7 +59,7 @@ public class HtmlUtilsTest {
     }
     @Test
     public void testSplitTxt2() {
-        String bio = "A SHORT BIO.  Yabo Xu joined School of Software, Sun Yat-sen University through \"A Hundred Elites Program\" in 2009.  He earned his Ph.D. in Computer Science, Simon Fraser University, Canada in 2008. During his Ph.D. study, he worked as an  intern in Microsoft Research Asia in 2005, and paid a research visit to CUHK and Microsoft AdCenter Lab in 2007 and 2008, respectively.  Prior to this, he received his master degree at CUHK (Chinese University of Hong Kong) in 2003 and  Bachelor of Science degree in Computer Science from Nanjing University, China in 2001.";
+        String bio = "Ying-Cheng Lai received B.S. and M.S. degrees in Optical Engineering from Zhejiang University in 1982 and 1985, and M.S. and Ph.D. degrees in Physics from University of Maryland at College Park in 1989 and 1992, respectively. He wrote his Ph.D. thesis on Classical and Quantum Chaos under Celso Grebogi, James A. Yorke and Edward Ott. From 1992-1994 he was a post-doctoral fellow in the Biomedical Engineering Department at the Johns Hopkins University School of Medicine under Raimond Winslow and Murray Sachs. He joined the University of Kansas in 1994 as an Assistant Professor of Physics and Mathematics and became Associate Professor in 1998. In 1999, he came to Arizona State University as Associate Professor of Mathematics and Associate Professor of Electrical Engineering. He was promoted to Professor of Mathematics and Professor of Electrical Engineering in 2001. In 2005, he switched full-time into Electrical Engineering. In 2009, Y.-C. Lai was named the Sixth Century Chair in Electrical Engineering by the University of Aberdeen, Scotland, UK. In January 2014, he was awarded the ISS Chair Professorship of Electrical Engineering at Arizona State University.\n";
         List<String> sentences = HtmlUtils.splitTxt(bio);
         System.out.println("####");
         printList(sentences);

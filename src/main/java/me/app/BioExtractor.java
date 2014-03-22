@@ -26,24 +26,25 @@ public class BioExtractor {
         String text = HtmlUtils.getText(html);
         String[] chunks = sliceText(text);
         String bio = selectBio(chunks);
-
-        // add word separator for the case: fromZhejiang Univeristy, MicrosoftResearch
-        StringBuilder sb = new StringBuilder();
-        bio = bio.replace("PhD", "Ph.D");
-        char[] cc = bio.toCharArray();
-        int len = cc.length;
-        if (len > 0) {
-            sb.append(cc[0]);
-        }
-        for (int i = 1; i < len; i++) {
-            // add space between two stick words
-            if (cc[i - 1] - 'a' >= 0 && cc[i - 1] - 'z' <= 0 &&
-                    cc[i] - 'A' >= 0 && cc[i] - 'Z' <= 0) {
-                sb.append(" ");
-            }
-            sb.append(cc[i]);
-        }
-        return sb.toString();
+        bio = bio.replace("Ph. D", "Ph.D");
+//        // add word separator for the case: fromZhejiang Univeristy, MicrosoftResearch
+//        StringBuilder sb = new StringBuilder();
+//        bio = bio.replace("PhD", "Ph.D");
+//        char[] cc = bio.toCharArray();
+//        int len = cc.length;
+//        if (len > 0) {
+//            sb.append(cc[0]);
+//        }
+//        for (int i = 1; i < len; i++) {
+//            // add space between two stick words
+//            if (cc[i - 1] - 'a' >= 0 && cc[i - 1] - 'z' <= 0 &&
+//                    cc[i] - 'A' >= 0 && cc[i] - 'Z' <= 0) {
+//                sb.append(" ");
+//            }
+//            sb.append(cc[i]);
+//        }
+//        return sb.toString();
+        return bio;
     }
 
     /**

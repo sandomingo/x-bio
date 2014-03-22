@@ -15,9 +15,8 @@ import java.util.List;
 
 /**
  * 文件读写工具
- * 
- * @author Administrator
- * 
+ * changed for html file processing
+ *
  */
 public class FileHandler {
 
@@ -96,7 +95,7 @@ public class FileHandler {
 	}
 	
 	/**
-	 * 读入流到字符中
+	 * 读入流到字符中, 每行末尾添加一个空格
 	 * @param is
 	 * @param doesRemoveBomOfUTF8	是否去除UTF-8的BOM文件头
 	 * @return
@@ -106,7 +105,7 @@ public class FileHandler {
 		List<String> stringList = readFileToList(is, doesRemoveBomOfUTF8);
 		StringBuffer sb = new StringBuffer();
 		for (String string : stringList) {
-			sb.append(string);
+			sb.append(string + " "); // append an extra space
 		}
 		return sb.toString();
 	}

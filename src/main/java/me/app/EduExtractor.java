@@ -61,19 +61,32 @@ public class EduExtractor {
         List<String> schools = getORG(eduStr);
         // find degree next to the school
         List<String> degrees = new ArrayList<String>();
-        List<String> words = HtmlUtils.token(eduStr);
+        List<String> words = HtmlUtils.token(sentence);
         for (String word : words) {
             if (HtmlUtils.isDegreeword(word)) {
                 degrees.add(word);
             }
         }
-        int schoolNum = schools.size();
+
         int degreeNum = degrees.size();
+        int schoolNum = schools.size();
+        // solve the case like: I got my M.S and Ph.D from SYSU.
+        // Solution: simply padding last school to make degrees' size equal to schools'
+        if (degreeNum > schoolNum && schoolNum > 0) {
+            int paddingNum = degreeNum - schoolNum;
+            for (int i = 0; i < paddingNum; i++) {
+                schools.add(schools.get(schools.size()-1));
+                schoolNum += 1;
+            }
+        }
         int minNum = schoolNum > degreeNum ? degreeNum : schoolNum;
+
         for (int i = 0; i < minNum; i++) {
             EduInfo eduInfo = new EduInfo(schools.get(i), degrees.get(i));
             eduInfos.add(eduInfo);
         }
+
+
         return eduInfos;
     }
 
