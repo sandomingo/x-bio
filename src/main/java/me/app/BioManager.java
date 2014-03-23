@@ -11,11 +11,7 @@ import java.util.*;
 
 /**
  * 用来从收集好的个人简历中采集关键词
- * 简历文件格式为：
- *      ＃ Name 1
- *      Text (may across multiple lines)
- *      ＃ Name 2
- *      Text (may across multiple lines)
+ *
  * User: SanDomingo
  * Date: 3/12/14
  * Time: 10:09 AM
@@ -82,6 +78,7 @@ public class BioManager {
 
     /**
      * 从指定个人简介文件中加载个人简介
+     *
      * @param biofile
      */
     private void loadBios(String biofile) {
@@ -90,6 +87,10 @@ public class BioManager {
         this.bios = biolst;
     }
 
+    /**
+     * 从数据库中读取用户简历
+     * @return
+     */
     public static List<String> readBioDB2List() {
         List<String> bios = new ArrayList<String>();
         String url = "jdbc:mysql://localhost/db_yeezhao_hound|hound|123456";
@@ -116,6 +117,11 @@ public class BioManager {
     }
     /**
      * 将符合格式Bio文件按条读入
+     *  简历文件格式为：
+     *      ＃ Name 1
+     *      Text (may across multiple lines)
+     *      ＃ Name 2
+     *      Text (may across multiple lines)
      * @param biofile
      * @return
      */
@@ -157,9 +163,7 @@ public class BioManager {
      * @param outfile
      */
     public void saveBioKeywords(String outfile) {
-//        List<String> kws = getKeyWords();
         try {
-//            FileHandler.writeListToFile(kws, outfile);
             FileHandler.writeListToFile(wordlst, outfile);
         } catch (IOException e) {
             e.printStackTrace();

@@ -5,6 +5,7 @@ import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
 
 /**
+ * Name Entity Recognition Class
  * User: SanDomingo
  * Date: 3/21/14
  * Time: 10:37 AM

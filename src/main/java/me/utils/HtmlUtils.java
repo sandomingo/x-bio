@@ -2,7 +2,6 @@ package me.utils;
 
 import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
-import opennlp.tools.util.InvalidFormatException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.safety.Whitelist;
@@ -11,8 +10,6 @@ import org.wltea.analyzer.core.Lexeme;
 
 import java.io.*;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -49,6 +46,10 @@ public class HtmlUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public HtmlUtils() {
+        super();    //To change body of overridden methods use File | Settings | File Templates.
     }
 
     private static void loadDegreewords() {
@@ -139,10 +140,8 @@ public class HtmlUtils {
         String[] sepTags = new String[]{"br", "p", "hr", "table", "td", "tr", "h1", "h2", "h3", "h4"};
         for (String tag : sepTags) {
             document.select(tag).append("\\n");
-//            document.select(tag).append("\n");
         }
         String s = document.html().replaceAll("\\\\n", "\n");
-//        String s = document.html();
         return Jsoup.clean(s, "", Whitelist.none(), new Document.OutputSettings().prettyPrint(false));
     }
 
@@ -161,7 +160,7 @@ public class HtmlUtils {
     }
 
     /**
-     * 分词，并尝试去除单词后面的标点符号(',', '.')
+     * 分词，字母变小写并尝试去除单词后面的标点符号(',', '.')
      * @param bio
      * @return
      */
@@ -178,7 +177,7 @@ public class HtmlUtils {
         return tokens;
     }
 
-    public static List<String> token(Reader reader) {
+    private static List<String> token(Reader reader) {
         IKSegmenter segment = new IKSegmenter(reader, true);
         ArrayList<String> tokens = new ArrayList<String>();
         Lexeme lexeme;

@@ -26,24 +26,8 @@ public class BioExtractor {
         String text = HtmlUtils.getText(html);
         String[] chunks = sliceText(text);
         String bio = selectBio(chunks);
+        // prevent wrong sentence segmentation
         bio = bio.replace("Ph. D", "Ph.D");
-//        // add word separator for the case: fromZhejiang Univeristy, MicrosoftResearch
-//        StringBuilder sb = new StringBuilder();
-//        bio = bio.replace("PhD", "Ph.D");
-//        char[] cc = bio.toCharArray();
-//        int len = cc.length;
-//        if (len > 0) {
-//            sb.append(cc[0]);
-//        }
-//        for (int i = 1; i < len; i++) {
-//            // add space between two stick words
-//            if (cc[i - 1] - 'a' >= 0 && cc[i - 1] - 'z' <= 0 &&
-//                    cc[i] - 'A' >= 0 && cc[i] - 'Z' <= 0) {
-//                sb.append(" ");
-//            }
-//            sb.append(cc[i]);
-//        }
-//        return sb.toString();
         return bio;
     }
 
@@ -97,13 +81,12 @@ public class BioExtractor {
             }
             score = score * 10.0 / entry.getValue().size();
             if (score > SCORE) {
-//                System.out.println("Chunk id: " + entry.getKey() + " Score: " + score);
                 bioBuilder.append(chunks[entry.getKey()] + "\n");
             }
         }
         String bioStr = bioBuilder.toString();
 
-        // TODO remove extra space
+        // remove extra space
         bioStr = HtmlUtils.removeExtraSpace(bioStr);
         if (bioStr.trim().isEmpty())
             return NO_BIO_FOUND;
@@ -148,11 +131,14 @@ public class BioExtractor {
             sb.append("\n");
         }
         String sep = sb.toString();
-//        System.out.println("Separator length: " + sep.length());
         return sep;
     }
 
 
+    /**
+     * Method for debug
+     * @param chunks
+     */
     private void printChunks(String[] chunks) {
         int digestLen = BIO_LENGTH_MAX;
         for (int i = 0; i < chunks.length; i++) {

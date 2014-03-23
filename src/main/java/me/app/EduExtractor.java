@@ -108,7 +108,7 @@ public class EduExtractor {
             String school = txt.substring(head, rear);
             String schoolLowerCase = school.toLowerCase();
             if (schoolLowerCase.contains("university") || schoolLowerCase.contains("institute")
-                    || schoolLowerCase.contains("research"))
+                    || schoolLowerCase.contains("research") || schoolLowerCase.contains("UC"))
                 orgs.add(school);
         }
         return orgs;
