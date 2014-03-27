@@ -2,10 +2,12 @@ package me.app;
 
 import me.utils.FileHandler;
 import me.utils.HtmlUtils;
+import me.utils.HtmlUtilsTest;
 import org.junit.Test;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -16,17 +18,40 @@ import java.io.IOException;
  */
 public class BioExtractorTest {
     @Test
+    public void testExtract2() {
+        String url = "http://web.eee.sztaki.hu/~kla/index.html";
+        String htmlString = HtmlUtilsTest.getHTML(url, "utf-8"); // download homepage
+        String bio = BioExtractor.getInstance().extract(htmlString);
+
+        //if found no bio in homepage, then fetch the next level pages
+        if (bio.equals(BioExtractor.NO_BIO_FOUND)) {
+            List<String> bioPageUrls = HtmlUtils.getLinks(htmlString, url);
+            for (String bioPageUrl : bioPageUrls) {
+                String nextPageHtmlString = HtmlUtilsTest.getHTML(bioPageUrl, "utf-8");
+                bio = BioExtractor.getInstance().extract(nextPageHtmlString);
+                if (!bio.isEmpty()) break;
+            }
+        }
+        if (bio.equals(BioExtractor.NO_BIO_FOUND)) {
+            System.out.println("None Bio");
+        } else {
+            System.out.println("Bio: " + bio);
+        }
+
+    }
+
+    @Test
     public void testExtracts() throws Exception {
 //        String html = "html-bio/binbin.html";
-        String html = "html-bio/";
+//        String html = "html-bio/";
 //        String html = "html-nbio/";
+        String html = "2";
         File dir = new File(html);
         File[] files;
         if (!dir.isDirectory()) {
             files = new File[1];
             files[0] = dir;
-        }
-        else
+        } else
             files = dir.listFiles();
         for (File file : files) {
             if (file.getName().endsWith("html") || (file.getName().endsWith("htm"))) {

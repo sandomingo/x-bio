@@ -78,6 +78,13 @@
             <artifactId>opennlp-tools</artifactId>
             <version>1.5.3</version>
         </dependency>
+
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

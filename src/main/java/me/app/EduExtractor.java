@@ -17,7 +17,13 @@ public class EduExtractor {
     private static String orgll = "<ORGANIZATION>";
     private static String orgrl = "</ORGANIZATION>";
     private static int orgllen = orgll.length();
-
+    private static EduExtractor instance;
+    public static EduExtractor getInstance() {
+        if (instance == null) {
+            instance = new EduExtractor();
+        }
+        return instance;
+    }
     /**
      * 从给定的个人简介中，抽取出一个人的最高教育经历，包括学位和取得学位时所在学校
      * @param bio

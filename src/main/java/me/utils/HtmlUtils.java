@@ -4,11 +4,14 @@ import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.safety.Whitelist;
+import org.jsoup.select.Elements;
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;
 
 import java.io.*;
+import java.net.URL;
 import java.util.*;
 
 /**
@@ -23,16 +26,19 @@ public class HtmlUtils {
     private static final String biokeywordsFile = "src/main/resources/biowords.txt";
     private static final String fieldwordsFile = "src/main/resources/fieldwords.txt";
     private static final String degreewordsFile = "src/main/resources/degree.txt";
+    private static final String homepageowrdsFile = "src/main/resources/homepagewords.txt";
     private static Set<String> fieldwords;
     private static Set<String> stopwords;
     private static Set<String> biokeywords;
     private static Set<String> degreewords;
+    private static Set<String> homepagewords;
     private static SentenceDetectorME sdeector;
     static {
         loadStopwords();
         loadFieldwords();
         loadBioktopwords();
         loadDegreewords();
+        loadHomepagewords();
         if (stopwords.isEmpty())
             System.err.println("load stopwords failed");
         if (biokeywords.isEmpty()) {
@@ -101,6 +107,18 @@ public class HtmlUtils {
         }
     }
 
+    private static void loadHomepagewords() {
+        try {
+            List<String> strlst = FileHandler.readFileToList(homepageowrdsFile);
+            homepagewords = new HashSet<String>();
+            for (String str : strlst) {
+                homepagewords.add(str);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private static boolean isFieldword(String word) {
         return fieldwords.contains(word);
     }
@@ -116,6 +134,16 @@ public class HtmlUtils {
     public static boolean isDegreeword(String word) {
         return degreewords.contains(word);
     }
+
+    private static boolean hasHomepageword(String href) {
+        for (String word : homepagewords) {
+            if (href.contains(word)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     /**
      * 抽取html中包含的全部文本
      * @param html
@@ -128,6 +156,35 @@ public class HtmlUtils {
         text = text.replaceAll("[ ]*\n[ ]*", "\n");
         return text;
     }
+
+    /**
+     * 抽取一个页面的所有二级页面的链接
+     * @param html
+     * @return
+     */
+    public static List<String> getLinks(String html, String base) {
+        List<String> links = new ArrayList<String>();
+        try {
+            Document document = Jsoup.parse(html);
+            Elements elements = document.getElementsByTag("a");
+            int len = elements.size();
+            URL baseURL = new URL(base);
+            for (int i = 0; i < len; i++) {
+                Element element = elements.get(i);
+                String href = element.attr("href");
+                // remove irrelevant link
+                if (!HtmlUtils.hasHomepageword(href)) continue;
+                // gen absolute path
+                URL url = new URL(baseURL, href);
+                href = url.toString();
+                links.add(href);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return links;
+    }
+
 
     /**
      * 获取html文本内容，同时保留换行

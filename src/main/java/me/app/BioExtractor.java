@@ -16,7 +16,14 @@ public class BioExtractor {
     public static final int BIO_LENGTH_MAX = 800;
     private static final float SCORE = 2;
     public static final String NO_BIO_FOUND = "No bio found.";
+    private static BioExtractor instance;
 
+    public static BioExtractor getInstance() {
+        if (instance == null) {
+            instance = new BioExtractor();
+        }
+        return instance;
+    }
     /**
      * 从任一个人Homepage html文档中抽取出个人简介
      * @param html

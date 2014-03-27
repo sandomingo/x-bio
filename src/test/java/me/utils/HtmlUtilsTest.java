@@ -3,6 +3,10 @@ package me.utils;
 import me.app.BioManager;
 import org.junit.Test;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -70,9 +74,45 @@ public class HtmlUtilsTest {
         System.out.println(HtmlUtils.removeExtraSpace(txt));
     }
 
+    @Test
+    public void testGetLinks() {
+        String url = "http://web.eee.sztaki.hu/~kla/index.html";
+        String html = getHTML(url, "utf-8");
+
+        List<String> links = HtmlUtils.getLinks(html, url);
+        printList(links);
+
+    }
     private void printList(List<String> sentences) {
         for (String sent : sentences) {
             System.out.println("==>>" + sent);
         }
+    }
+
+    /**
+     *
+     * @param pageURL 目标网页url
+     * @param encoding 字符编码格式
+     * @return 网页的内容
+     */
+    public static String getHTML(String pageURL, String encoding) {
+        StringBuilder pageHTML = new StringBuilder();
+        try {
+            URL url = new URL(pageURL);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestProperty("User-Agent", "MSIE 7.0");
+            connection.setConnectTimeout(60*1000);
+            connection.setReadTimeout(60*1000);
+            BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), encoding));
+            String line;
+            while ((line = br.readLine()) != null) {
+                pageHTML.append(line);
+                pageHTML.append("\r\n");
+            }
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return pageHTML.toString();
     }
 }
