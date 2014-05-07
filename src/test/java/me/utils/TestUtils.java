@@ -15,4 +15,13 @@ public class TestUtils {
             System.out.println("->" + str + "<-");
         }
     }
+
+    public static void main(String[] args) {
+        String a = "abc";
+        String[] b = a.split("\\n");
+        System.out.println(b.length);
+        for (String str : b) {
+            System.out.println(str);
+        }
+    }
 }

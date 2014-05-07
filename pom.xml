@@ -68,6 +68,12 @@
         </dependency>
 
         <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.yeezhao.commons</groupId>
             <artifactId>yz-commons-config</artifactId>
             <version>0.1.8</version>
@@ -83,6 +89,19 @@
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
             <version>3.3.1</version>
+        </dependency>
+
+        <!--boilerplate dependency-->
+        <!--boilerpip is add manually, now is in lib/ dir-->
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.9.20</version>
+        </dependency>
+        <dependency>
+            <groupId>xerces</groupId>
+            <artifactId>xercesImpl</artifactId>
+            <version>2.11.0</version>
         </dependency>
 
     </dependencies>

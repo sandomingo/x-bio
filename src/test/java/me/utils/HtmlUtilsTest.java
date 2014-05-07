@@ -41,6 +41,7 @@ public class HtmlUtilsTest {
     public void testGetText() throws Exception {
         String filename = "html-bio/atul.html";
         String html = FileHandler.readFileToString(filename);
+        html = "adfe&nbsp;sdfas&lt;asdfsaf&gt;asdfjlas&amp;sdflkj\r\nsdafjl\rlksjdf\n";
         String text = HtmlUtils.getText(html);
         List<String> lst = new ArrayList<String>();
         lst.add(text);

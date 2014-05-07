@@ -18,6 +18,24 @@ import java.util.List;
  */
 public class BioExtractorTest {
     @Test
+    public void testExtractByBoilerplate() {
+        try {
+            File dir = new File("html-bio");
+            File[] files = dir.listFiles();
+            int counter = 1;
+            for (File file : files) {
+                String html = FileHandler.readFileToString(file.getAbsolutePath());
+                String bio = BioExtractor.getInstance().extractWithBoilerplate(html);
+                System.out.println(bio);
+                if (--counter <= 0) {
+                    break;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    @Test
     public void testExtract2() {
         String url = "http://web.eee.sztaki.hu/~kla/index.html";
         String htmlString = HtmlUtilsTest.getHTML(url, "utf-8"); // download homepage
@@ -71,7 +89,7 @@ public class BioExtractorTest {
 
     @Test
     public void testSliceText() throws IOException {
-        String htmlFilename = "html-bio/binbin.html";
+        String htmlFilename = "html-bio/abdel.html";
         String html = FileHandler.readFileToString(htmlFilename);
         BioExtractor extractor = new BioExtractor();
         String text = HtmlUtils.getText(html);
